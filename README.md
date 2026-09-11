@@ -6,9 +6,6 @@ gene associated with Stargardt disease 1. The workflow retrieves ClinVar records
 resolves allele-level GRCh38 coordinates, scores eligible SNVs, and evaluates
 coding and splicing variants separately.
 
-AlphaGenome predictions are for research use only. They are not diagnoses and
-must not be used for clinical decision-making.
-
 ## Main result
 
 The analysis retrieved 4,670 ClinVar records and scored 4,024 unique, precise
