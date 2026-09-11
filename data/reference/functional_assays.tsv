@@ -1,0 +1,209 @@
+study_key	doi	assay_group	variant	hgvs_c	hgvs_p	effect_name	effect_value	effect_unit	direction_interpretation	source_location	reported_class
+garces_2021	https://doi.org/10.3390/ijms22010185	protein_expression			p.R653C	expression	102.0	reported relative percent	higher value indicates more retained function	ijms-22-00185-t001	
+garces_2021	https://doi.org/10.3390/ijms22010185	protein_basal_atpase			p.R653C	basal_atpase	113.0	reported relative percent	higher value indicates more retained function	ijms-22-00185-t001	
+garces_2021	https://doi.org/10.3390/ijms22010185	protein_ret_pe_induced_atpase			p.R653C	ret_pe_induced_atpase	134.0	reported relative percent	higher value indicates more retained function	ijms-22-00185-t001	
+garces_2021	https://doi.org/10.3390/ijms22010185	protein_expression			p.R653H	expression	115.0	reported relative percent	higher value indicates more retained function	ijms-22-00185-t001	
+garces_2021	https://doi.org/10.3390/ijms22010185	protein_basal_atpase			p.R653H	basal_atpase	130.0	reported relative percent	higher value indicates more retained function	ijms-22-00185-t001	
+garces_2021	https://doi.org/10.3390/ijms22010185	protein_ret_pe_induced_atpase			p.R653H	ret_pe_induced_atpase	239.0	reported relative percent	higher value indicates more retained function	ijms-22-00185-t001	
+garces_2021	https://doi.org/10.3390/ijms22010185	protein_expression			p.L661R	expression	20.0	reported relative percent	higher value indicates more retained function	ijms-22-00185-t001	
+garces_2021	https://doi.org/10.3390/ijms22010185	protein_basal_atpase			p.L661R	basal_atpase	13.0	reported relative percent	higher value indicates more retained function	ijms-22-00185-t001	
+garces_2021	https://doi.org/10.3390/ijms22010185	protein_ret_pe_induced_atpase			p.L661R	ret_pe_induced_atpase	16.0	reported relative percent	higher value indicates more retained function	ijms-22-00185-t001	
+garces_2021	https://doi.org/10.3390/ijms22010185	protein_expression			p.L686S	expression	27.0	reported relative percent	higher value indicates more retained function	ijms-22-00185-t001	
+garces_2021	https://doi.org/10.3390/ijms22010185	protein_basal_atpase			p.L686S	basal_atpase	18.0	reported relative percent	higher value indicates more retained function	ijms-22-00185-t001	
+garces_2021	https://doi.org/10.3390/ijms22010185	protein_ret_pe_induced_atpase			p.L686S	ret_pe_induced_atpase	30.0	reported relative percent	higher value indicates more retained function	ijms-22-00185-t001	
+garces_2021	https://doi.org/10.3390/ijms22010185	protein_expression			p.G690V	expression	33.0	reported relative percent	higher value indicates more retained function	ijms-22-00185-t001	
+garces_2021	https://doi.org/10.3390/ijms22010185	protein_basal_atpase			p.G690V	basal_atpase	41.0	reported relative percent	higher value indicates more retained function	ijms-22-00185-t001	
+garces_2021	https://doi.org/10.3390/ijms22010185	protein_ret_pe_induced_atpase			p.G690V	ret_pe_induced_atpase	59.0	reported relative percent	higher value indicates more retained function	ijms-22-00185-t001	
+garces_2021	https://doi.org/10.3390/ijms22010185	protein_expression			p.T716M	expression	98.0	reported relative percent	higher value indicates more retained function	ijms-22-00185-t001	
+garces_2021	https://doi.org/10.3390/ijms22010185	protein_basal_atpase			p.T716M	basal_atpase	94.0	reported relative percent	higher value indicates more retained function	ijms-22-00185-t001	
+garces_2021	https://doi.org/10.3390/ijms22010185	protein_ret_pe_induced_atpase			p.T716M	ret_pe_induced_atpase	228.0	reported relative percent	higher value indicates more retained function	ijms-22-00185-t001	
+garces_2021	https://doi.org/10.3390/ijms22010185	protein_expression			p.C764Y	expression	100.0	reported relative percent	higher value indicates more retained function	ijms-22-00185-t001	
+garces_2021	https://doi.org/10.3390/ijms22010185	protein_basal_atpase			p.C764Y	basal_atpase	133.0	reported relative percent	higher value indicates more retained function	ijms-22-00185-t001	
+garces_2021	https://doi.org/10.3390/ijms22010185	protein_ret_pe_induced_atpase			p.C764Y	ret_pe_induced_atpase	270.0	reported relative percent	higher value indicates more retained function	ijms-22-00185-t001	
+garces_2021	https://doi.org/10.3390/ijms22010185	protein_expression			p.S765N	expression	30.0	reported relative percent	higher value indicates more retained function	ijms-22-00185-t001	
+garces_2021	https://doi.org/10.3390/ijms22010185	protein_basal_atpase			p.S765N	basal_atpase	21.0	reported relative percent	higher value indicates more retained function	ijms-22-00185-t001	
+garces_2021	https://doi.org/10.3390/ijms22010185	protein_ret_pe_induced_atpase			p.S765N	ret_pe_induced_atpase	45.0	reported relative percent	higher value indicates more retained function	ijms-22-00185-t001	
+garces_2021	https://doi.org/10.3390/ijms22010185	protein_expression			p.S765R	expression	29.0	reported relative percent	higher value indicates more retained function	ijms-22-00185-t001	
+garces_2021	https://doi.org/10.3390/ijms22010185	protein_basal_atpase			p.S765R	basal_atpase	18.0	reported relative percent	higher value indicates more retained function	ijms-22-00185-t001	
+garces_2021	https://doi.org/10.3390/ijms22010185	protein_ret_pe_induced_atpase			p.S765R	ret_pe_induced_atpase	29.0	reported relative percent	higher value indicates more retained function	ijms-22-00185-t001	
+garces_2021	https://doi.org/10.3390/ijms22010185	protein_expression			p.V767D	expression	24.0	reported relative percent	higher value indicates more retained function	ijms-22-00185-t001	
+garces_2021	https://doi.org/10.3390/ijms22010185	protein_basal_atpase			p.V767D	basal_atpase	40.0	reported relative percent	higher value indicates more retained function	ijms-22-00185-t001	
+garces_2021	https://doi.org/10.3390/ijms22010185	protein_ret_pe_induced_atpase			p.V767D	ret_pe_induced_atpase	63.0	reported relative percent	higher value indicates more retained function	ijms-22-00185-t001	
+garces_2021	https://doi.org/10.3390/ijms22010185	protein_expression			p.L797P	expression	25.0	reported relative percent	higher value indicates more retained function	ijms-22-00185-t001	
+garces_2021	https://doi.org/10.3390/ijms22010185	protein_basal_atpase			p.L797P	basal_atpase	31.0	reported relative percent	higher value indicates more retained function	ijms-22-00185-t001	
+garces_2021	https://doi.org/10.3390/ijms22010185	protein_ret_pe_induced_atpase			p.L797P	ret_pe_induced_atpase	37.0	reported relative percent	higher value indicates more retained function	ijms-22-00185-t001	
+garces_2021	https://doi.org/10.3390/ijms22010185	protein_expression			p.G818E	expression	51.0	reported relative percent	higher value indicates more retained function	ijms-22-00185-t001	
+garces_2021	https://doi.org/10.3390/ijms22010185	protein_basal_atpase			p.G818E	basal_atpase	63.0	reported relative percent	higher value indicates more retained function	ijms-22-00185-t001	
+garces_2021	https://doi.org/10.3390/ijms22010185	protein_ret_pe_induced_atpase			p.G818E	ret_pe_induced_atpase	111.0	reported relative percent	higher value indicates more retained function	ijms-22-00185-t001	
+garces_2021	https://doi.org/10.3390/ijms22010185	protein_expression			p.W821R	expression	51.0	reported relative percent	higher value indicates more retained function	ijms-22-00185-t001	
+garces_2021	https://doi.org/10.3390/ijms22010185	protein_basal_atpase			p.W821R	basal_atpase	58.0	reported relative percent	higher value indicates more retained function	ijms-22-00185-t001	
+garces_2021	https://doi.org/10.3390/ijms22010185	protein_ret_pe_induced_atpase			p.W821R	ret_pe_induced_atpase	125.0	reported relative percent	higher value indicates more retained function	ijms-22-00185-t001	
+garces_2021	https://doi.org/10.3390/ijms22010185	protein_expression			p.I824T	expression	41.0	reported relative percent	higher value indicates more retained function	ijms-22-00185-t001	
+garces_2021	https://doi.org/10.3390/ijms22010185	protein_basal_atpase			p.I824T	basal_atpase	64.0	reported relative percent	higher value indicates more retained function	ijms-22-00185-t001	
+garces_2021	https://doi.org/10.3390/ijms22010185	protein_ret_pe_induced_atpase			p.I824T	ret_pe_induced_atpase	145.0	reported relative percent	higher value indicates more retained function	ijms-22-00185-t001	
+garces_2021	https://doi.org/10.3390/ijms22010185	protein_expression			p.M840R	expression	26.0	reported relative percent	higher value indicates more retained function	ijms-22-00185-t001	
+garces_2021	https://doi.org/10.3390/ijms22010185	protein_basal_atpase			p.M840R	basal_atpase	37.0	reported relative percent	higher value indicates more retained function	ijms-22-00185-t001	
+garces_2021	https://doi.org/10.3390/ijms22010185	protein_ret_pe_induced_atpase			p.M840R	ret_pe_induced_atpase	47.0	reported relative percent	higher value indicates more retained function	ijms-22-00185-t001	
+garces_2021	https://doi.org/10.3390/ijms22010185	protein_expression			p.D846H	expression	30.0	reported relative percent	higher value indicates more retained function	ijms-22-00185-t001	
+garces_2021	https://doi.org/10.3390/ijms22010185	protein_basal_atpase			p.D846H	basal_atpase	42.0	reported relative percent	higher value indicates more retained function	ijms-22-00185-t001	
+garces_2021	https://doi.org/10.3390/ijms22010185	protein_ret_pe_induced_atpase			p.D846H	ret_pe_induced_atpase	50.0	reported relative percent	higher value indicates more retained function	ijms-22-00185-t001	
+garces_2021	https://doi.org/10.3390/ijms22010185	protein_expression			p.V849A	expression	88.0	reported relative percent	higher value indicates more retained function	ijms-22-00185-t001	
+garces_2021	https://doi.org/10.3390/ijms22010185	protein_basal_atpase			p.V849A	basal_atpase	86.0	reported relative percent	higher value indicates more retained function	ijms-22-00185-t001	
+garces_2021	https://doi.org/10.3390/ijms22010185	protein_ret_pe_induced_atpase			p.V849A	ret_pe_induced_atpase	216.0	reported relative percent	higher value indicates more retained function	ijms-22-00185-t001	
+garces_2021	https://doi.org/10.3390/ijms22010185	protein_expression			p.G851D	expression	27.0	reported relative percent	higher value indicates more retained function	ijms-22-00185-t001	
+garces_2021	https://doi.org/10.3390/ijms22010185	protein_basal_atpase			p.G851D	basal_atpase	31.0	reported relative percent	higher value indicates more retained function	ijms-22-00185-t001	
+garces_2021	https://doi.org/10.3390/ijms22010185	protein_ret_pe_induced_atpase			p.G851D	ret_pe_induced_atpase	46.0	reported relative percent	higher value indicates more retained function	ijms-22-00185-t001	
+garces_2021	https://doi.org/10.3390/ijms22010185	protein_expression			p.A854T	expression	82.0	reported relative percent	higher value indicates more retained function	ijms-22-00185-t001	
+garces_2021	https://doi.org/10.3390/ijms22010185	protein_basal_atpase			p.A854T	basal_atpase	70.0	reported relative percent	higher value indicates more retained function	ijms-22-00185-t001	
+garces_2021	https://doi.org/10.3390/ijms22010185	protein_ret_pe_induced_atpase			p.A854T	ret_pe_induced_atpase	148.0	reported relative percent	higher value indicates more retained function	ijms-22-00185-t001	
+garces_2021	https://doi.org/10.3390/ijms22010185	protein_expression			p.P1380L	expression	53.0	reported relative percent	higher value indicates more retained function	ijms-22-00185-t002	
+garces_2021	https://doi.org/10.3390/ijms22010185	protein_basal_atpase			p.P1380L	basal_atpase	61.0	reported relative percent	higher value indicates more retained function	ijms-22-00185-t002	
+garces_2021	https://doi.org/10.3390/ijms22010185	protein_ret_pe_induced_atpase			p.P1380L	ret_pe_induced_atpase	144.0	reported relative percent	higher value indicates more retained function	ijms-22-00185-t002	
+garces_2021	https://doi.org/10.3390/ijms22010185	protein_expression			p.E1399K	expression	102.0	reported relative percent	higher value indicates more retained function	ijms-22-00185-t002	
+garces_2021	https://doi.org/10.3390/ijms22010185	protein_basal_atpase			p.E1399K	basal_atpase	94.0	reported relative percent	higher value indicates more retained function	ijms-22-00185-t002	
+garces_2021	https://doi.org/10.3390/ijms22010185	protein_ret_pe_induced_atpase			p.E1399K	ret_pe_induced_atpase	202.0	reported relative percent	higher value indicates more retained function	ijms-22-00185-t002	
+garces_2021	https://doi.org/10.3390/ijms22010185	protein_expression			p.S1696N	expression	96.0	reported relative percent	higher value indicates more retained function	ijms-22-00185-t002	
+garces_2021	https://doi.org/10.3390/ijms22010185	protein_basal_atpase			p.S1696N	basal_atpase	120.0	reported relative percent	higher value indicates more retained function	ijms-22-00185-t002	
+garces_2021	https://doi.org/10.3390/ijms22010185	protein_ret_pe_induced_atpase			p.S1696N	ret_pe_induced_atpase	255.0	reported relative percent	higher value indicates more retained function	ijms-22-00185-t002	
+garces_2021	https://doi.org/10.3390/ijms22010185	protein_expression			p.Q1703E	expression	89.0	reported relative percent	higher value indicates more retained function	ijms-22-00185-t002	
+garces_2021	https://doi.org/10.3390/ijms22010185	protein_basal_atpase			p.Q1703E	basal_atpase	36.0	reported relative percent	higher value indicates more retained function	ijms-22-00185-t002	
+garces_2021	https://doi.org/10.3390/ijms22010185	protein_ret_pe_induced_atpase			p.Q1703E	ret_pe_induced_atpase	20.0	reported relative percent	higher value indicates more retained function	ijms-22-00185-t002	
+garces_2021	https://doi.org/10.3390/ijms22010185	protein_expression			p.Q1703K	expression	52.0	reported relative percent	higher value indicates more retained function	ijms-22-00185-t002	
+garces_2021	https://doi.org/10.3390/ijms22010185	protein_basal_atpase			p.Q1703K	basal_atpase	17.0	reported relative percent	higher value indicates more retained function	ijms-22-00185-t002	
+garces_2021	https://doi.org/10.3390/ijms22010185	protein_ret_pe_induced_atpase			p.Q1703K	ret_pe_induced_atpase	12.0	reported relative percent	higher value indicates more retained function	ijms-22-00185-t002	
+garces_2021	https://doi.org/10.3390/ijms22010185	protein_expression			p.R1705L	expression	40.0	reported relative percent	higher value indicates more retained function	ijms-22-00185-t002	
+garces_2021	https://doi.org/10.3390/ijms22010185	protein_basal_atpase			p.R1705L	basal_atpase	76.0	reported relative percent	higher value indicates more retained function	ijms-22-00185-t002	
+garces_2021	https://doi.org/10.3390/ijms22010185	protein_ret_pe_induced_atpase			p.R1705L	ret_pe_induced_atpase	113.0	reported relative percent	higher value indicates more retained function	ijms-22-00185-t002	
+garces_2021	https://doi.org/10.3390/ijms22010185	protein_expression			p.A1773E	expression	21.0	reported relative percent	higher value indicates more retained function	ijms-22-00185-t002	
+garces_2021	https://doi.org/10.3390/ijms22010185	protein_basal_atpase			p.A1773E	basal_atpase	38.0	reported relative percent	higher value indicates more retained function	ijms-22-00185-t002	
+garces_2021	https://doi.org/10.3390/ijms22010185	protein_ret_pe_induced_atpase			p.A1773E	ret_pe_induced_atpase	43.0	reported relative percent	higher value indicates more retained function	ijms-22-00185-t002	
+garces_2021	https://doi.org/10.3390/ijms22010185	protein_expression			p.A1773V	expression	36.0	reported relative percent	higher value indicates more retained function	ijms-22-00185-t002	
+garces_2021	https://doi.org/10.3390/ijms22010185	protein_basal_atpase			p.A1773V	basal_atpase	25.0	reported relative percent	higher value indicates more retained function	ijms-22-00185-t002	
+garces_2021	https://doi.org/10.3390/ijms22010185	protein_ret_pe_induced_atpase			p.A1773V	ret_pe_induced_atpase	46.0	reported relative percent	higher value indicates more retained function	ijms-22-00185-t002	
+garces_2021	https://doi.org/10.3390/ijms22010185	protein_expression			p.A1794D	expression	76.0	reported relative percent	higher value indicates more retained function	ijms-22-00185-t002	
+garces_2021	https://doi.org/10.3390/ijms22010185	protein_basal_atpase			p.A1794D	basal_atpase	46.0	reported relative percent	higher value indicates more retained function	ijms-22-00185-t002	
+garces_2021	https://doi.org/10.3390/ijms22010185	protein_ret_pe_induced_atpase			p.A1794D	ret_pe_induced_atpase	57.0	reported relative percent	higher value indicates more retained function	ijms-22-00185-t002	
+garces_2021	https://doi.org/10.3390/ijms22010185	protein_expression			p.A1794P	expression	55.0	reported relative percent	higher value indicates more retained function	ijms-22-00185-t002	
+garces_2021	https://doi.org/10.3390/ijms22010185	protein_basal_atpase			p.A1794P	basal_atpase	74.0	reported relative percent	higher value indicates more retained function	ijms-22-00185-t002	
+garces_2021	https://doi.org/10.3390/ijms22010185	protein_ret_pe_induced_atpase			p.A1794P	ret_pe_induced_atpase	137.0	reported relative percent	higher value indicates more retained function	ijms-22-00185-t002	
+garces_2021	https://doi.org/10.3390/ijms22010185	protein_expression			p.N1805D	expression	82.0	reported relative percent	higher value indicates more retained function	ijms-22-00185-t002	
+garces_2021	https://doi.org/10.3390/ijms22010185	protein_basal_atpase			p.N1805D	basal_atpase	74.0	reported relative percent	higher value indicates more retained function	ijms-22-00185-t002	
+garces_2021	https://doi.org/10.3390/ijms22010185	protein_ret_pe_induced_atpase			p.N1805D	ret_pe_induced_atpase	154.0	reported relative percent	higher value indicates more retained function	ijms-22-00185-t002	
+garces_2021	https://doi.org/10.3390/ijms22010185	protein_expression			p.H1838D	expression	56.0	reported relative percent	higher value indicates more retained function	ijms-22-00185-t002	
+garces_2021	https://doi.org/10.3390/ijms22010185	protein_basal_atpase			p.H1838D	basal_atpase	48.0	reported relative percent	higher value indicates more retained function	ijms-22-00185-t002	
+garces_2021	https://doi.org/10.3390/ijms22010185	protein_ret_pe_induced_atpase			p.H1838D	ret_pe_induced_atpase	96.0	reported relative percent	higher value indicates more retained function	ijms-22-00185-t002	
+garces_2021	https://doi.org/10.3390/ijms22010185	protein_expression			p.H1838N	expression	107.0	reported relative percent	higher value indicates more retained function	ijms-22-00185-t002	
+garces_2021	https://doi.org/10.3390/ijms22010185	protein_basal_atpase			p.H1838N	basal_atpase	60.0	reported relative percent	higher value indicates more retained function	ijms-22-00185-t002	
+garces_2021	https://doi.org/10.3390/ijms22010185	protein_ret_pe_induced_atpase			p.H1838N	ret_pe_induced_atpase	132.0	reported relative percent	higher value indicates more retained function	ijms-22-00185-t002	
+garces_2021	https://doi.org/10.3390/ijms22010185	protein_expression			p.H1838R	expression	27.0	reported relative percent	higher value indicates more retained function	ijms-22-00185-t002	
+garces_2021	https://doi.org/10.3390/ijms22010185	protein_basal_atpase			p.H1838R	basal_atpase	23.0	reported relative percent	higher value indicates more retained function	ijms-22-00185-t002	
+garces_2021	https://doi.org/10.3390/ijms22010185	protein_ret_pe_induced_atpase			p.H1838R	ret_pe_induced_atpase	28.0	reported relative percent	higher value indicates more retained function	ijms-22-00185-t002	
+garces_2021	https://doi.org/10.3390/ijms22010185	protein_expression			p.H1838Y	expression	48.0	reported relative percent	higher value indicates more retained function	ijms-22-00185-t002	
+garces_2021	https://doi.org/10.3390/ijms22010185	protein_basal_atpase			p.H1838Y	basal_atpase	48.0	reported relative percent	higher value indicates more retained function	ijms-22-00185-t002	
+garces_2021	https://doi.org/10.3390/ijms22010185	protein_ret_pe_induced_atpase			p.H1838Y	ret_pe_induced_atpase	75.0	reported relative percent	higher value indicates more retained function	ijms-22-00185-t002	
+garces_2021	https://doi.org/10.3390/ijms22010185	protein_expression			p.R1843W	expression	99.0	reported relative percent	higher value indicates more retained function	ijms-22-00185-t002	
+garces_2021	https://doi.org/10.3390/ijms22010185	protein_basal_atpase			p.R1843W	basal_atpase	68.0	reported relative percent	higher value indicates more retained function	ijms-22-00185-t002	
+garces_2021	https://doi.org/10.3390/ijms22010185	protein_ret_pe_induced_atpase			p.R1843W	ret_pe_induced_atpase	131.0	reported relative percent	higher value indicates more retained function	ijms-22-00185-t002	
+garces_2021	https://doi.org/10.3390/ijms22010185	protein_expression			p.N1868I	expression	111.0	reported relative percent	higher value indicates more retained function	ijms-22-00185-t002	
+garces_2021	https://doi.org/10.3390/ijms22010185	protein_basal_atpase			p.N1868I	basal_atpase	134.0	reported relative percent	higher value indicates more retained function	ijms-22-00185-t002	
+garces_2021	https://doi.org/10.3390/ijms22010185	protein_ret_pe_induced_atpase			p.N1868I	ret_pe_induced_atpase	259.0	reported relative percent	higher value indicates more retained function	ijms-22-00185-t002	
+garces_2021	https://doi.org/10.3390/ijms22010185	protein_expression			p.R1898C	expression	84.0	reported relative percent	higher value indicates more retained function	ijms-22-00185-t002	
+garces_2021	https://doi.org/10.3390/ijms22010185	protein_basal_atpase			p.R1898C	basal_atpase	114.0	reported relative percent	higher value indicates more retained function	ijms-22-00185-t002	
+garces_2021	https://doi.org/10.3390/ijms22010185	protein_ret_pe_induced_atpase			p.R1898C	ret_pe_induced_atpase	238.0	reported relative percent	higher value indicates more retained function	ijms-22-00185-t002	
+garces_2021	https://doi.org/10.3390/ijms22010185	protein_expression			p.R1898H	expression	102.0	reported relative percent	higher value indicates more retained function	ijms-22-00185-t002	
+garces_2021	https://doi.org/10.3390/ijms22010185	protein_basal_atpase			p.R1898H	basal_atpase	112.0	reported relative percent	higher value indicates more retained function	ijms-22-00185-t002	
+garces_2021	https://doi.org/10.3390/ijms22010185	protein_ret_pe_induced_atpase			p.R1898H	ret_pe_induced_atpase	270.0	reported relative percent	higher value indicates more retained function	ijms-22-00185-t002	
+sangermano_2018	https://doi.org/10.1101/gr.226621.117	splicing_correct_mrna		c.160+5G>C		correctly_spliced_mrna	34.3	percent	higher value indicates more correctly spliced transcript	Table 1	Moderate
+sangermano_2018	https://doi.org/10.1101/gr.226621.117	splicing_correct_mrna		c.161G>T		correctly_spliced_mrna	0.0	percent	higher value indicates more correctly spliced transcript	Table 1	Severe
+sangermano_2018	https://doi.org/10.1101/gr.226621.117	splicing_correct_mrna		c.302+4A>C		correctly_spliced_mrna	0.0	percent	higher value indicates more correctly spliced transcript	Table 1	Severe
+sangermano_2018	https://doi.org/10.1101/gr.226621.117	splicing_correct_mrna		c.303-3C>G		correctly_spliced_mrna	0.0	percent	higher value indicates more correctly spliced transcript	Table 1	Severe
+sangermano_2018	https://doi.org/10.1101/gr.226621.117	splicing_correct_mrna		c.768G>T		correctly_spliced_mrna	0.0	percent	higher value indicates more correctly spliced transcript	Table 1	Severe
+sangermano_2018	https://doi.org/10.1101/gr.226621.117	splicing_correct_mrna		c.859-9T>C		correctly_spliced_mrna	75.7	percent	higher value indicates more correctly spliced transcript	Table 1	Mild
+sangermano_2018	https://doi.org/10.1101/gr.226621.117	splicing_correct_mrna		c.1100-6T>A		correctly_spliced_mrna	0.0	percent	higher value indicates more correctly spliced transcript	Table 1	Severe
+sangermano_2018	https://doi.org/10.1101/gr.226621.117	splicing_correct_mrna		c.1937+13T>G		correctly_spliced_mrna	14.0	percent	higher value indicates more correctly spliced transcript	Table 1	Severe
+sangermano_2018	https://doi.org/10.1101/gr.226621.117	splicing_correct_mrna		c.2382+5G>C		correctly_spliced_mrna	47.9	percent	higher value indicates more correctly spliced transcript	Table 1	Moderate
+sangermano_2018	https://doi.org/10.1101/gr.226621.117	splicing_correct_mrna		c.2588G>C		correctly_spliced_mrna	60.0	percent	higher value indicates more correctly spliced transcript	Table 1	Mild
+sangermano_2018	https://doi.org/10.1101/gr.226621.117	splicing_correct_mrna		c.2919-10T>C		correctly_spliced_mrna	61.1	percent	higher value indicates more correctly spliced transcript	Table 1	Moderate
+sangermano_2018	https://doi.org/10.1101/gr.226621.117	splicing_correct_mrna		c.2919-6C>A		correctly_spliced_mrna	79.6	percent	higher value indicates more correctly spliced transcript	Table 1	Mild
+sangermano_2018	https://doi.org/10.1101/gr.226621.117	splicing_correct_mrna		c.3050+5G>A		correctly_spliced_mrna	0.0	percent	higher value indicates more correctly spliced transcript	Table 1	Severe
+sangermano_2018	https://doi.org/10.1101/gr.226621.117	splicing_correct_mrna		c.3522+5del		correctly_spliced_mrna	53.0	percent	higher value indicates more correctly spliced transcript	Table 1	Moderate
+sangermano_2018	https://doi.org/10.1101/gr.226621.117	splicing_correct_mrna		c.3607G>A		correctly_spliced_mrna	10.9	percent	higher value indicates more correctly spliced transcript	Table 1	Severe
+sangermano_2018	https://doi.org/10.1101/gr.226621.117	splicing_correct_mrna		c.3607+3A>T		correctly_spliced_mrna	0.0	percent	higher value indicates more correctly spliced transcript	Table 1	Severe
+sangermano_2018	https://doi.org/10.1101/gr.226621.117	splicing_correct_mrna		c.3812A>G		correctly_spliced_mrna	0.0	percent	higher value indicates more correctly spliced transcript	Table 1	Severe
+sangermano_2018	https://doi.org/10.1101/gr.226621.117	splicing_correct_mrna		c.3813G>C		correctly_spliced_mrna	0.0	percent	higher value indicates more correctly spliced transcript	Table 1	Severe
+sangermano_2018	https://doi.org/10.1101/gr.226621.117	splicing_correct_mrna		c.3862+3A>G		correctly_spliced_mrna	53.4	percent	higher value indicates more correctly spliced transcript	Table 1	Moderate
+sangermano_2018	https://doi.org/10.1101/gr.226621.117	splicing_correct_mrna		c.4128G>A		correctly_spliced_mrna	0.0	percent	higher value indicates more correctly spliced transcript	Table 1	Severe
+sangermano_2018	https://doi.org/10.1101/gr.226621.117	splicing_correct_mrna		c.4253+4C>T		correctly_spliced_mrna	7.8	percent	higher value indicates more correctly spliced transcript	Table 1	Severe
+sangermano_2018	https://doi.org/10.1101/gr.226621.117	splicing_correct_mrna		c.4253+5G>A		correctly_spliced_mrna	0.0	percent	higher value indicates more correctly spliced transcript	Table 1	Severe
+sangermano_2018	https://doi.org/10.1101/gr.226621.117	splicing_correct_mrna		c.4253+5G>T		correctly_spliced_mrna	5.4	percent	higher value indicates more correctly spliced transcript	Table 1	Severe
+sangermano_2018	https://doi.org/10.1101/gr.226621.117	splicing_correct_mrna		c.4538A>G		correctly_spliced_mrna	0.0	percent	higher value indicates more correctly spliced transcript	Table 1	Severe
+sangermano_2018	https://doi.org/10.1101/gr.226621.117	splicing_correct_mrna		c.4538A>C		correctly_spliced_mrna	4.3	percent	higher value indicates more correctly spliced transcript	Table 1	Severe
+sangermano_2018	https://doi.org/10.1101/gr.226621.117	splicing_correct_mrna		c.4634G>A		correctly_spliced_mrna	100.0	percent	higher value indicates more correctly spliced transcript	Table 1	Benign
+sangermano_2018	https://doi.org/10.1101/gr.226621.117	splicing_correct_mrna		c.4667G>C		correctly_spliced_mrna	0.0	percent	higher value indicates more correctly spliced transcript	Table 1	Severe
+sangermano_2018	https://doi.org/10.1101/gr.226621.117	splicing_correct_mrna		c.4773G>C		correctly_spliced_mrna	0.0	percent	higher value indicates more correctly spliced transcript	Table 1	Severe
+sangermano_2018	https://doi.org/10.1101/gr.226621.117	splicing_correct_mrna		c.4773+3A>G		correctly_spliced_mrna	24.6	percent	higher value indicates more correctly spliced transcript	Table 1	Severe
+sangermano_2018	https://doi.org/10.1101/gr.226621.117	splicing_correct_mrna		c.4773+5G>A		correctly_spliced_mrna	29.1	percent	higher value indicates more correctly spliced transcript	Table 1	Severe
+sangermano_2018	https://doi.org/10.1101/gr.226621.117	splicing_correct_mrna		c.5196+3_5196+6del		correctly_spliced_mrna	0.0	percent	higher value indicates more correctly spliced transcript	Table 1	Severe
+sangermano_2018	https://doi.org/10.1101/gr.226621.117	splicing_correct_mrna		c.5196+3_5196+8del		correctly_spliced_mrna	100.0	percent	higher value indicates more correctly spliced transcript	Table 1	Benign
+sangermano_2018	https://doi.org/10.1101/gr.226621.117	splicing_correct_mrna		c.5312+3A>T		correctly_spliced_mrna	0.0	percent	higher value indicates more correctly spliced transcript	Table 1	Severe
+sangermano_2018	https://doi.org/10.1101/gr.226621.117	splicing_correct_mrna		c.5313-3C>G		correctly_spliced_mrna	0.0	percent	higher value indicates more correctly spliced transcript	Table 1	Severe
+sangermano_2018	https://doi.org/10.1101/gr.226621.117	splicing_correct_mrna		c.5460+5G>A		correctly_spliced_mrna	0.0	percent	higher value indicates more correctly spliced transcript	Table 1	Severe
+sangermano_2018	https://doi.org/10.1101/gr.226621.117	splicing_correct_mrna		c.5461-10T>C		correctly_spliced_mrna	0.0	percent	higher value indicates more correctly spliced transcript	Table 1	Severe
+sangermano_2018	https://doi.org/10.1101/gr.226621.117	splicing_correct_mrna		c.5461-8T>G		correctly_spliced_mrna	0.0	percent	higher value indicates more correctly spliced transcript	Table 1	Severe
+sangermano_2018	https://doi.org/10.1101/gr.226621.117	splicing_correct_mrna		c.5584G>C		correctly_spliced_mrna	0.0	percent	higher value indicates more correctly spliced transcript	Table 1	Severe
+sangermano_2018	https://doi.org/10.1101/gr.226621.117	splicing_correct_mrna		c.5584+5G>A		correctly_spliced_mrna	0.0	percent	higher value indicates more correctly spliced transcript	Table 1	Severe
+sangermano_2018	https://doi.org/10.1101/gr.226621.117	splicing_correct_mrna		c.5584+6T>C		correctly_spliced_mrna	0.0	percent	higher value indicates more correctly spliced transcript	Table 1	Severe
+sangermano_2018	https://doi.org/10.1101/gr.226621.117	splicing_correct_mrna		c.5585-10T>C		correctly_spliced_mrna	100.0	percent	higher value indicates more correctly spliced transcript	Table 1	Benign
+sangermano_2018	https://doi.org/10.1101/gr.226621.117	splicing_correct_mrna		c.5714+5G>A		correctly_spliced_mrna	39.8	percent	higher value indicates more correctly spliced transcript	Table 1	Moderate
+sangermano_2018	https://doi.org/10.1101/gr.226621.117	splicing_correct_mrna		c.5836-3C>A		correctly_spliced_mrna	0.0	percent	higher value indicates more correctly spliced transcript	Table 1	Severe
+sangermano_2018	https://doi.org/10.1101/gr.226621.117	splicing_correct_mrna		c.5898+5del		correctly_spliced_mrna	4.5	percent	higher value indicates more correctly spliced transcript	Table 1	Severe
+sangermano_2018	https://doi.org/10.1101/gr.226621.117	splicing_correct_mrna		c.6478A>G		correctly_spliced_mrna	55.2	percent	higher value indicates more correctly spliced transcript	Table 1	Moderate
+sangermano_2018	https://doi.org/10.1101/gr.226621.117	splicing_correct_mrna		c.6479+4A>G		correctly_spliced_mrna	0.0	percent	higher value indicates more correctly spliced transcript	Table 1	Severe
+sangermano_2018	https://doi.org/10.1101/gr.226621.117	splicing_correct_mrna		c.6729+5_6729+19del		correctly_spliced_mrna	0.0	percent	higher value indicates more correctly spliced transcript	Table 1	Severe
+aslaksen_2024	https://doi.org/10.1167/iovs.65.10.2	protein_expression		c.317A>T	p.(Tyr106Phe)	expression	111.0	reported relative percent	higher value indicates more retained function	tbl3	
+aslaksen_2024	https://doi.org/10.1167/iovs.65.10.2	protein_basal_atpase		c.317A>T	p.(Tyr106Phe)	basal_atpase	95.0	reported relative percent	higher value indicates more retained function	tbl3	
+aslaksen_2024	https://doi.org/10.1167/iovs.65.10.2	protein_ret_pe_induced_atpase		c.317A>T	p.(Tyr106Phe)	ret_pe_induced_atpase	153.0	reported relative percent	higher value indicates more retained function	tbl3	
+aslaksen_2024	https://doi.org/10.1167/iovs.65.10.2	protein_f_index		c.317A>T	p.(Tyr106Phe)	f_index	0.94	reported relative percent	higher value indicates more retained function	tbl3	
+aslaksen_2024	https://doi.org/10.1167/iovs.65.10.2	protein_expression		c.514G>A	p.(Gly172Ser)	expression	113.0	reported relative percent	higher value indicates more retained function	tbl3	
+aslaksen_2024	https://doi.org/10.1167/iovs.65.10.2	protein_basal_atpase		c.514G>A	p.(Gly172Ser)	basal_atpase	100.0	reported relative percent	higher value indicates more retained function	tbl3	
+aslaksen_2024	https://doi.org/10.1167/iovs.65.10.2	protein_ret_pe_induced_atpase		c.514G>A	p.(Gly172Ser)	ret_pe_induced_atpase	183.0	reported relative percent	higher value indicates more retained function	tbl3	
+aslaksen_2024	https://doi.org/10.1167/iovs.65.10.2	protein_f_index		c.514G>A	p.(Gly172Ser)	f_index	1.35	reported relative percent	higher value indicates more retained function	tbl3	
+aslaksen_2024	https://doi.org/10.1167/iovs.65.10.2	protein_expression		c.614G>T	p.(Cys205Phe)	expression	50.0	reported relative percent	higher value indicates more retained function	tbl3	
+aslaksen_2024	https://doi.org/10.1167/iovs.65.10.2	protein_basal_atpase		c.614G>T	p.(Cys205Phe)	basal_atpase	41.0	reported relative percent	higher value indicates more retained function	tbl3	
+aslaksen_2024	https://doi.org/10.1167/iovs.65.10.2	protein_ret_pe_induced_atpase		c.614G>T	p.(Cys205Phe)	ret_pe_induced_atpase	42.0	reported relative percent	higher value indicates more retained function	tbl3	
+aslaksen_2024	https://doi.org/10.1167/iovs.65.10.2	protein_f_index		c.614G>T	p.(Cys205Phe)	f_index	0.0	reported relative percent	higher value indicates more retained function	tbl3	
+aslaksen_2024	https://doi.org/10.1167/iovs.65.10.2	protein_expression		c.1244A>C	p.(Asn415Thr)	expression	72.0	reported relative percent	higher value indicates more retained function	tbl3	
+aslaksen_2024	https://doi.org/10.1167/iovs.65.10.2	protein_basal_atpase		c.1244A>C	p.(Asn415Thr)	basal_atpase	58.0	reported relative percent	higher value indicates more retained function	tbl3	
+aslaksen_2024	https://doi.org/10.1167/iovs.65.10.2	protein_ret_pe_induced_atpase		c.1244A>C	p.(Asn415Thr)	ret_pe_induced_atpase	56.0	reported relative percent	higher value indicates more retained function	tbl3	
+aslaksen_2024	https://doi.org/10.1167/iovs.65.10.2	protein_f_index		c.1244A>C	p.(Asn415Thr)	f_index	-0.02	reported relative percent	higher value indicates more retained function	tbl3	
+aslaksen_2024	https://doi.org/10.1167/iovs.65.10.2	protein_expression		c.1928T>G	p.(Val643Gly)	expression	121.0	reported relative percent	higher value indicates more retained function	tbl3	
+aslaksen_2024	https://doi.org/10.1167/iovs.65.10.2	protein_basal_atpase		c.1928T>G	p.(Val643Gly)	basal_atpase	83.0	reported relative percent	higher value indicates more retained function	tbl3	
+aslaksen_2024	https://doi.org/10.1167/iovs.65.10.2	protein_ret_pe_induced_atpase		c.1928T>G	p.(Val643Gly)	ret_pe_induced_atpase	115.0	reported relative percent	higher value indicates more retained function	tbl3	
+aslaksen_2024	https://doi.org/10.1167/iovs.65.10.2	protein_f_index		c.1928T>G	p.(Val643Gly)	f_index	0.48	reported relative percent	higher value indicates more retained function	tbl3	
+aslaksen_2024	https://doi.org/10.1167/iovs.65.10.2	protein_expression		c.2396C>T	p.(Pro799Leu)	expression	43.0	reported relative percent	higher value indicates more retained function	tbl3	
+aslaksen_2024	https://doi.org/10.1167/iovs.65.10.2	protein_basal_atpase		c.2396C>T	p.(Pro799Leu)	basal_atpase	70.0	reported relative percent	higher value indicates more retained function	tbl3	
+aslaksen_2024	https://doi.org/10.1167/iovs.65.10.2	protein_ret_pe_induced_atpase		c.2396C>T	p.(Pro799Leu)	ret_pe_induced_atpase	99.0	reported relative percent	higher value indicates more retained function	tbl3	
+aslaksen_2024	https://doi.org/10.1167/iovs.65.10.2	protein_f_index		c.2396C>T	p.(Pro799Leu)	f_index	0.17	reported relative percent	higher value indicates more retained function	tbl3	
+aslaksen_2024	https://doi.org/10.1167/iovs.65.10.2	protein_expression		c.2819C>G	p.(Pro940Arg)	expression	100.0	reported relative percent	higher value indicates more retained function	tbl3	
+aslaksen_2024	https://doi.org/10.1167/iovs.65.10.2	protein_basal_atpase		c.2819C>G	p.(Pro940Arg)	basal_atpase	100.0	reported relative percent	higher value indicates more retained function	tbl3	
+aslaksen_2024	https://doi.org/10.1167/iovs.65.10.2	protein_ret_pe_induced_atpase		c.2819C>G	p.(Pro940Arg)	ret_pe_induced_atpase	170.0	reported relative percent	higher value indicates more retained function	tbl3	
+aslaksen_2024	https://doi.org/10.1167/iovs.65.10.2	protein_f_index		c.2819C>G	p.(Pro940Arg)	f_index	1.01	reported relative percent	higher value indicates more retained function	tbl3	
+aslaksen_2024	https://doi.org/10.1167/iovs.65.10.2	protein_expression		c.3491A>G	p.(Lys1164Arg)	expression	115.0	reported relative percent	higher value indicates more retained function	tbl3	
+aslaksen_2024	https://doi.org/10.1167/iovs.65.10.2	protein_basal_atpase		c.3491A>G	p.(Lys1164Arg)	basal_atpase	93.0	reported relative percent	higher value indicates more retained function	tbl3	
+aslaksen_2024	https://doi.org/10.1167/iovs.65.10.2	protein_ret_pe_induced_atpase		c.3491A>G	p.(Lys1164Arg)	ret_pe_induced_atpase	155.0	reported relative percent	higher value indicates more retained function	tbl3	
+aslaksen_2024	https://doi.org/10.1167/iovs.65.10.2	protein_f_index		c.3491A>G	p.(Lys1164Arg)	f_index	0.9	reported relative percent	higher value indicates more retained function	tbl3	
+aslaksen_2024	https://doi.org/10.1167/iovs.65.10.2	protein_expression		c.4297G>A	p.(Val1433Ile)	expression	86.0	reported relative percent	higher value indicates more retained function	tbl3	
+aslaksen_2024	https://doi.org/10.1167/iovs.65.10.2	protein_basal_atpase		c.4297G>A	p.(Val1433Ile)	basal_atpase	76.0	reported relative percent	higher value indicates more retained function	tbl3	
+aslaksen_2024	https://doi.org/10.1167/iovs.65.10.2	protein_ret_pe_induced_atpase		c.4297G>A	p.(Val1433Ile)	ret_pe_induced_atpase	112.0	reported relative percent	higher value indicates more retained function	tbl3	
+aslaksen_2024	https://doi.org/10.1167/iovs.65.10.2	protein_f_index		c.4297G>A	p.(Val1433Ile)	f_index	0.41	reported relative percent	higher value indicates more retained function	tbl3	
+aslaksen_2024	https://doi.org/10.1167/iovs.65.10.2	protein_expression		c.6148G>C	p.(Val2050Leu)	expression	107.0	reported relative percent	higher value indicates more retained function	tbl3	
+aslaksen_2024	https://doi.org/10.1167/iovs.65.10.2	protein_basal_atpase		c.6148G>C	p.(Val2050Leu)	basal_atpase	98.0	reported relative percent	higher value indicates more retained function	tbl3	
+aslaksen_2024	https://doi.org/10.1167/iovs.65.10.2	protein_ret_pe_induced_atpase		c.6148G>C	p.(Val2050Leu)	ret_pe_induced_atpase	157.0	reported relative percent	higher value indicates more retained function	tbl3	
+aslaksen_2024	https://doi.org/10.1167/iovs.65.10.2	protein_f_index		c.6148G>C	p.(Val2050Leu)	f_index	0.92	reported relative percent	higher value indicates more retained function	tbl3	
+wang_2025	https://doi.org/10.1167/iovs.66.1.65	splicing_minigene		c.161-395G>A		aberrant_splicing		qualitative	study reports a splice effect; exact band fractions are not tabulated in machine-readable text	Results and Figure 2	minigene tested in this study; aberrant bands exceed 50%
+wang_2025	https://doi.org/10.1167/iovs.66.1.65	splicing_minigene		c.2919-826T>A		aberrant_splicing		qualitative	study reports a splice effect; exact band fractions are not tabulated in machine-readable text	Figure 1B	previously reported splice effect
+wang_2025	https://doi.org/10.1167/iovs.66.1.65	splicing_minigene		c.4539+1100A>G		aberrant_splicing		qualitative	study reports a splice effect; exact band fractions are not tabulated in machine-readable text	Figure 1B	previously reported splice effect
+wang_2025	https://doi.org/10.1167/iovs.66.1.65	splicing_minigene		c.4634+741A>G		aberrant_splicing		qualitative	study reports a splice effect; exact band fractions are not tabulated in machine-readable text	Results and Figure 2	minigene tested in this study; aberrant bands exceed 50%
+wang_2025	https://doi.org/10.1167/iovs.66.1.65	splicing_minigene		c.5461-1321A>G		aberrant_splicing		qualitative	study reports a splice effect; exact band fractions are not tabulated in machine-readable text	Figure 1B	previously reported splice effect
+wang_2025	https://doi.org/10.1167/iovs.66.1.65	splicing_minigene		c.1937+188A>G		aberrant_splicing		qualitative	study reports a splice effect; exact band fractions are not tabulated in machine-readable text	Results and Figure 2	minigene tested in this study; aberrant bands exceed 50%
+wang_2025	https://doi.org/10.1167/iovs.66.1.65	splicing_minigene		c.3329-551C>G		aberrant_splicing		qualitative	study reports a splice effect; exact band fractions are not tabulated in machine-readable text	Results and Figure 2	minigene tested in this study; aberrant bands exceed 50%

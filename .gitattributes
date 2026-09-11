@@ -1,0 +1,8 @@
+* text=auto eol=lf
+
+*.gz binary
+*.json.gz binary
+*.parquet binary
+*.png binary
+*.tsv whitespace=-blank-at-eol
+*.xml whitespace=-blank-at-eol

@@ -1,0 +1,502 @@
+{
+  "acceptance_checks": {
+    "all_18_attribution_columns_present": true,
+    "all_four_sentinels_scored": true,
+    "both_primary_classes_present": true,
+    "every_score_has_atlas_url": true,
+    "no_failed_scores": true
+  },
+  "cohort_definitions": {
+    "all_reviews": "P/LP versus B/LB, precise GRCh38 SNVs, any review status",
+    "primary": "P/LP versus B/LB, precise GRCh38 SNVs, at least one ClinVar review star",
+    "stgd1": "Primary labels restricted to explicit STGD1 identifiers or synonyms"
+  },
+  "created_at_utc": "2026-09-11T20:51:18.847401+00:00",
+  "files": {
+    "data\\processed\\clinvar_records.parquet": {
+      "bytes": 381275,
+      "last_modified_utc": "2026-09-11T20:02:50.218518+00:00",
+      "sha256": "1165f1743c2d042d67b4956ffd0061965062f8fdc5e9b2d6a9304900c452b761"
+    },
+    "data\\processed\\clinvar_records.tsv": {
+      "bytes": 2747990,
+      "last_modified_utc": "2026-09-11T20:02:50.147059+00:00",
+      "sha256": "50f746614d862ea74bab3228872dd9788386e687ae86d6c4ef1b7ab341833487"
+    },
+    "data\\processed\\variants.parquet": {
+      "bytes": 350972,
+      "last_modified_utc": "2026-09-11T20:02:51.782303+00:00",
+      "sha256": "d610af0badb42bdac4acdb57a6f2ab35f4ebc0af46c14e88869806d4cc0c9a9b"
+    },
+    "data\\processed\\variants.tsv": {
+      "bytes": 2443813,
+      "last_modified_utc": "2026-09-11T20:02:51.767229+00:00",
+      "sha256": "b33c683af9c53f760afc8a461d523d6012aeefcff3d78af8a8611700e6b18561"
+    },
+    "data\\processed\\variants_for_scoring.tsv": {
+      "bytes": 2443813,
+      "last_modified_utc": "2026-09-11T20:02:51.831708+00:00",
+      "sha256": "ad6659fba07acccbb3fa8dc5be9c2638f9b4777d96ff26e11252b1e5820e2480"
+    },
+    "data\\raw\\clinvar_ids.json": {
+      "bytes": 72745,
+      "last_modified_utc": "2026-09-11T19:28:22.285435+00:00",
+      "sha256": "50b450afccf3bfdaa0d0dd5bc99cc79a66f04bc87d4e13eeec92a0c9b86e2f95"
+    },
+    "data\\raw\\clinvar_summaries.json.gz": {
+      "bytes": 826547,
+      "last_modified_utc": "2026-09-11T19:28:51.790611+00:00",
+      "sha256": "97f44f11c308c11a04f5fdb8da81acba3f97a366964f13bc21859b42e0166c65"
+    },
+    "data\\raw\\clinvar_summary_batches\\summary_0001.json.gz": {
+      "bytes": 29435,
+      "last_modified_utc": "2026-09-11T20:01:16.582338+00:00",
+      "sha256": "11671d2b793fdfb14b2a654eaa3c056a6907b3ae561b374d0c34d9b25d1f4292"
+    },
+    "data\\raw\\clinvar_summary_batches\\summary_0002.json.gz": {
+      "bytes": 27704,
+      "last_modified_utc": "2026-09-11T20:01:17.624372+00:00",
+      "sha256": "f142f8ec6edaeeb29e2f060cc3dd7d3ba4e11617eac9a7c70ba7e45134add1b1"
+    },
+    "data\\raw\\clinvar_summary_batches\\summary_0003.json.gz": {
+      "bytes": 28637,
+      "last_modified_utc": "2026-09-11T20:01:18.899217+00:00",
+      "sha256": "1122c45fb50120bb22ba109bee68cd2b849b41d3323881f361d70c8bdfd084cd"
+    },
+    "data\\raw\\clinvar_summary_batches\\summary_0004.json.gz": {
+      "bytes": 30408,
+      "last_modified_utc": "2026-09-11T20:01:20.070827+00:00",
+      "sha256": "26f5b0fe75ad1cab8fd2650e6c1e9a27f7b8bd2be4f24d3d594737076ae57ee6"
+    },
+    "data\\raw\\clinvar_summary_batches\\summary_0005.json.gz": {
+      "bytes": 29666,
+      "last_modified_utc": "2026-09-11T20:01:21.202659+00:00",
+      "sha256": "cbd5bb65b1cd4e8504e67b4b2fcab78fdc04e49e096873e5d06903761e8b4400"
+    },
+    "data\\raw\\clinvar_summary_batches\\summary_0006.json.gz": {
+      "bytes": 28934,
+      "last_modified_utc": "2026-09-11T20:01:22.215908+00:00",
+      "sha256": "b4fd49ffcf8a499c16be04ccfe6c273f65cd63f998abae97116ee2d04e79230f"
+    },
+    "data\\raw\\clinvar_summary_batches\\summary_0007.json.gz": {
+      "bytes": 29904,
+      "last_modified_utc": "2026-09-11T20:01:23.330861+00:00",
+      "sha256": "769adf7f584a06709f94eeec67df478afcb082b504381b5fc73865d401827952"
+    },
+    "data\\raw\\clinvar_summary_batches\\summary_0008.json.gz": {
+      "bytes": 32824,
+      "last_modified_utc": "2026-09-11T20:01:24.422507+00:00",
+      "sha256": "8135f9510fb5bca0ce3dbefb4c314cecd6835b93aaed7af825f6cc6fc9dd428d"
+    },
+    "data\\raw\\clinvar_summary_batches\\summary_0009.json.gz": {
+      "bytes": 31363,
+      "last_modified_utc": "2026-09-11T20:01:25.512700+00:00",
+      "sha256": "c9237d4d5b60306fe1f2907d2c5b68c0c6daba197b52ea8681346c524b564337"
+    },
+    "data\\raw\\clinvar_summary_batches\\summary_0010.json.gz": {
+      "bytes": 31225,
+      "last_modified_utc": "2026-09-11T20:01:26.590568+00:00",
+      "sha256": "af39e0e5567d971706e77e9beaf770a1b9936f37365381344bc0147457805563"
+    },
+    "data\\raw\\clinvar_summary_batches\\summary_0011.json.gz": {
+      "bytes": 31620,
+      "last_modified_utc": "2026-09-11T20:01:27.722740+00:00",
+      "sha256": "31a090c795f0eb0804e16bd3a0b750daecbc8dc100aa5fadbd79cbd1071ce494"
+    },
+    "data\\raw\\clinvar_summary_batches\\summary_0012.json.gz": {
+      "bytes": 35014,
+      "last_modified_utc": "2026-09-11T20:01:28.927408+00:00",
+      "sha256": "f090e213ccbe803c9f4d256e9d85b1fecb1ed2c8527f6a2589ecd7623d1063c9"
+    },
+    "data\\raw\\clinvar_summary_batches\\summary_0013.json.gz": {
+      "bytes": 34534,
+      "last_modified_utc": "2026-09-11T20:01:30.072178+00:00",
+      "sha256": "1bada377d30a259e3d1fe25c61cbe46da1028f1331f370de44feeafbabeef0d0"
+    },
+    "data\\raw\\clinvar_summary_batches\\summary_0014.json.gz": {
+      "bytes": 34081,
+      "last_modified_utc": "2026-09-11T20:01:31.277494+00:00",
+      "sha256": "b52b2346ed4e5427cb43844e78df237da7908eb65eeccaacc7419a9d8a1201d3"
+    },
+    "data\\raw\\clinvar_summary_batches\\summary_0015.json.gz": {
+      "bytes": 33452,
+      "last_modified_utc": "2026-09-11T20:01:32.485129+00:00",
+      "sha256": "a23cbc0891d5c74847be12612a47bb55af10bcf52f5de2c17f62eb6e05177f57"
+    },
+    "data\\raw\\clinvar_summary_batches\\summary_0016.json.gz": {
+      "bytes": 37840,
+      "last_modified_utc": "2026-09-11T20:01:33.642412+00:00",
+      "sha256": "66553bd2106fffe9dcd2c1c89f38d3782b4b692f094c489f67246fd25395a8e8"
+    },
+    "data\\raw\\clinvar_summary_batches\\summary_0017.json.gz": {
+      "bytes": 36963,
+      "last_modified_utc": "2026-09-11T20:01:35.153587+00:00",
+      "sha256": "3bb99a39fd30879025cefa23e7e4d41e9885362847d8160e2a7bdc24a4c0f90a"
+    },
+    "data\\raw\\clinvar_summary_batches\\summary_0018.json.gz": {
+      "bytes": 38651,
+      "last_modified_utc": "2026-09-11T20:01:36.606661+00:00",
+      "sha256": "3826fe3a3b7b391d42c37930bac7fc793e9a89e3667e9e5e357010fa6cdc25d1"
+    },
+    "data\\raw\\clinvar_summary_batches\\summary_0019.json.gz": {
+      "bytes": 48110,
+      "last_modified_utc": "2026-09-11T20:01:38.050204+00:00",
+      "sha256": "df05058c01eb0786f56c71e58297b148c24a3c210b7b654c9d9e39496af1e230"
+    },
+    "data\\raw\\clinvar_summary_batches\\summary_0020.json.gz": {
+      "bytes": 77493,
+      "last_modified_utc": "2026-09-11T20:01:40.360532+00:00",
+      "sha256": "3c0554047fcfe017366990d438915421c37b318f24e677976ebb150413f672a5"
+    },
+    "data\\raw\\clinvar_summary_batches\\summary_0021.json.gz": {
+      "bytes": 47317,
+      "last_modified_utc": "2026-09-11T20:01:42.156404+00:00",
+      "sha256": "10fe12c94a7aa4f7cfc235bcb6891405cf55f68494d231c50e34d724d252077e"
+    },
+    "data\\raw\\clinvar_summary_batches\\summary_0022.json.gz": {
+      "bytes": 42243,
+      "last_modified_utc": "2026-09-11T20:01:43.699944+00:00",
+      "sha256": "bb6148aabfa50b8d04416d6ad43ec543b6a03727ad1fbc558cf75bb053667aaa"
+    },
+    "data\\raw\\clinvar_summary_batches\\summary_0023.json.gz": {
+      "bytes": 37890,
+      "last_modified_utc": "2026-09-11T20:01:45.174579+00:00",
+      "sha256": "e8ed183986bcd1328a7211a2779e293765c9cf23366435bd7acc9a2698d66a99"
+    },
+    "data\\raw\\clinvar_summary_batches\\summary_0024.json.gz": {
+      "bytes": 19412,
+      "last_modified_utc": "2026-09-11T20:01:45.589783+00:00",
+      "sha256": "1019ea1852db75f8591d2e0c8fd4d93423be419aa9b00770c88e3598a9283710"
+    },
+    "data\\raw\\clinvar_vcv_batches\\vcv_0001.xml.gz": {
+      "bytes": 142663,
+      "last_modified_utc": "2026-09-11T19:28:53.177150+00:00",
+      "sha256": "838ee6d5d2fda13e592a49c830040c532000c3b125bade3f136110347913234f"
+    },
+    "data\\raw\\clinvar_vcv_batches\\vcv_0002.xml.gz": {
+      "bytes": 114443,
+      "last_modified_utc": "2026-09-11T19:28:54.599985+00:00",
+      "sha256": "796b6670b9b099aeab09a08759ae87c925499c937808aaf23527d0484aed3c5d"
+    },
+    "data\\raw\\clinvar_vcv_batches\\vcv_0003.xml.gz": {
+      "bytes": 119023,
+      "last_modified_utc": "2026-09-11T19:28:55.570485+00:00",
+      "sha256": "08267c8dcbebfbd88090ef71cad47f7e0c1389f5492806b3629a92750cfe9d2c"
+    },
+    "data\\raw\\clinvar_vcv_batches\\vcv_0004.xml.gz": {
+      "bytes": 91900,
+      "last_modified_utc": "2026-09-11T19:28:56.509907+00:00",
+      "sha256": "5af6729910131cf5535886dc2bdaafd6a2bfde63373cdc004929c57c1220ecd1"
+    },
+    "data\\raw\\clinvar_vcv_batches\\vcv_0005.xml.gz": {
+      "bytes": 97357,
+      "last_modified_utc": "2026-09-11T19:28:57.445270+00:00",
+      "sha256": "847ed56e1323c0f64a27337b3da29874396ee3de10dbbadabaa1a18603876072"
+    },
+    "data\\raw\\clinvar_vcv_batches\\vcv_0006.xml.gz": {
+      "bytes": 87887,
+      "last_modified_utc": "2026-09-11T19:28:58.834593+00:00",
+      "sha256": "fd8d0f36391bc721066740c1e6b697ac8a4e3491bbae259bccf0a44fcc8808b2"
+    },
+    "data\\raw\\clinvar_vcv_batches\\vcv_0007.xml.gz": {
+      "bytes": 103558,
+      "last_modified_utc": "2026-09-11T19:29:00.146489+00:00",
+      "sha256": "5074c68a2de818cc20abb17dc533de24780a92dbb18f00648320ca27cae45a0e"
+    },
+    "data\\raw\\clinvar_vcv_batches\\vcv_0008.xml.gz": {
+      "bytes": 150567,
+      "last_modified_utc": "2026-09-11T19:29:01.580518+00:00",
+      "sha256": "fec5e82ea4f697934f62016453c3f072ae32dd38971eb85de4ad4adde81b34e8"
+    },
+    "data\\raw\\clinvar_vcv_batches\\vcv_0009.xml.gz": {
+      "bytes": 123459,
+      "last_modified_utc": "2026-09-11T19:29:02.800598+00:00",
+      "sha256": "57f6d625113fc9f36102345967f556654d1548989c96a3f1e98792bea55284e4"
+    },
+    "data\\raw\\clinvar_vcv_batches\\vcv_0010.xml.gz": {
+      "bytes": 119840,
+      "last_modified_utc": "2026-09-11T19:29:03.715556+00:00",
+      "sha256": "b94e1673deb1a7e41a1958884972f85cd9f5dc31cfa560c8e85cc2f0090f25d9"
+    },
+    "data\\raw\\clinvar_vcv_batches\\vcv_0011.xml.gz": {
+      "bytes": 108651,
+      "last_modified_utc": "2026-09-11T19:29:05.454806+00:00",
+      "sha256": "8bd0461fe8d7bee8b619fb8802a4c59f2b73b05119d4f52b0dabdd20efc23a24"
+    },
+    "data\\raw\\clinvar_vcv_batches\\vcv_0012.xml.gz": {
+      "bytes": 174305,
+      "last_modified_utc": "2026-09-11T19:29:07.012766+00:00",
+      "sha256": "114c0c7bda02abcf9b6c0805c1d23880e486db35fe6c70c2b7dd914931006855"
+    },
+    "data\\raw\\clinvar_vcv_batches\\vcv_0013.xml.gz": {
+      "bytes": 153411,
+      "last_modified_utc": "2026-09-11T19:29:08.613532+00:00",
+      "sha256": "a31e22bbb29eef63d5370d813da3d42e03218020d34dba5210cbc7fbf55f15f0"
+    },
+    "data\\raw\\clinvar_vcv_batches\\vcv_0014.xml.gz": {
+      "bytes": 122137,
+      "last_modified_utc": "2026-09-11T19:29:10.027713+00:00",
+      "sha256": "653add22cf435edcbeb86b607891ebd98dffc4df51beb50162a5db19d1174347"
+    },
+    "data\\raw\\clinvar_vcv_batches\\vcv_0015.xml.gz": {
+      "bytes": 152485,
+      "last_modified_utc": "2026-09-11T19:29:12.555394+00:00",
+      "sha256": "1cf82b1e24d9a3c2b24873256b9a8a5d6c6704ce6f252ad83f8f34330c8518eb"
+    },
+    "data\\raw\\clinvar_vcv_batches\\vcv_0016.xml.gz": {
+      "bytes": 248217,
+      "last_modified_utc": "2026-09-11T19:29:14.226879+00:00",
+      "sha256": "848f1256b754b7cf2925c43ee23a555dfb63fa60665f00a66487c3765b54fdf1"
+    },
+    "data\\raw\\clinvar_vcv_batches\\vcv_0017.xml.gz": {
+      "bytes": 220826,
+      "last_modified_utc": "2026-09-11T19:29:15.389199+00:00",
+      "sha256": "64994d1b2a1fc1b3d02102d09dfefec5ccd48c8fc5a180d609996c36e6a8e6d8"
+    },
+    "data\\raw\\clinvar_vcv_batches\\vcv_0018.xml.gz": {
+      "bytes": 277407,
+      "last_modified_utc": "2026-09-11T19:29:17.004217+00:00",
+      "sha256": "ce5b5c16c8477484d7d6914fe78023107e707865890fc033ed4803aeaab16ef6"
+    },
+    "data\\raw\\clinvar_vcv_batches\\vcv_0019.xml.gz": {
+      "bytes": 349768,
+      "last_modified_utc": "2026-09-11T19:29:18.642421+00:00",
+      "sha256": "16f20f08d80cd4de85c6f8e1c3c32af236ff9350cc43a889be2ac7f3884ce360"
+    },
+    "data\\raw\\clinvar_vcv_batches\\vcv_0020.xml.gz": {
+      "bytes": 763019,
+      "last_modified_utc": "2026-09-11T19:29:21.444663+00:00",
+      "sha256": "44404dae727f7b091a61432c3b936243d8532085ecd1e82d02ae3ad4b468e664"
+    },
+    "data\\raw\\clinvar_vcv_batches\\vcv_0021.xml.gz": {
+      "bytes": 554320,
+      "last_modified_utc": "2026-09-11T19:29:22.957026+00:00",
+      "sha256": "8805c52b4265847edea926f1d35c93e159a36a54bcac11a6c5273d9044a2fd3f"
+    },
+    "data\\raw\\clinvar_vcv_batches\\vcv_0022.xml.gz": {
+      "bytes": 759421,
+      "last_modified_utc": "2026-09-11T19:29:24.794240+00:00",
+      "sha256": "26f9e4459109b891658e475e9f009f015e97e8f93a2b099ecca73583a2bb8b11"
+    },
+    "data\\raw\\clinvar_vcv_batches\\vcv_0023.xml.gz": {
+      "bytes": 543155,
+      "last_modified_utc": "2026-09-11T19:29:26.826812+00:00",
+      "sha256": "ec312a84102b4a4d5e8a8504e7a4f6009a119bc412f157983a052e1f6cbc15cc"
+    },
+    "data\\raw\\clinvar_vcv_batches\\vcv_0024.xml.gz": {
+      "bytes": 422038,
+      "last_modified_utc": "2026-09-11T19:29:28.288299+00:00",
+      "sha256": "b02435775fb1939c73356eb9cdbc92d1f5165c568bcc2c7f0d9e3504a9e6e8a1"
+    },
+    "data\\raw\\literature\\PMC11305421.xml": {
+      "bytes": 125668,
+      "last_modified_utc": "2026-09-11T19:43:05.919600+00:00",
+      "sha256": "93fdcae611507528697284391c4cfdab15b21263dd88ae11ff4826cc2820c2a7"
+    },
+    "data\\raw\\literature\\PMC11781324.xml": {
+      "bytes": 116142,
+      "last_modified_utc": "2026-09-11T19:43:06.581795+00:00",
+      "sha256": "683c91806204672e459e3ba78025539b9540c73b367be5b10c88baff6583f6e0"
+    },
+    "data\\raw\\literature\\PMC5749174.xml": {
+      "bytes": 124662,
+      "last_modified_utc": "2026-09-11T19:43:05.251756+00:00",
+      "sha256": "fe5e083853e670e8bcaf6ab9e311566924d8152cf04d211db09c8fb19fd6dc28"
+    },
+    "data\\raw\\literature\\PMC7796138.xml": {
+      "bytes": 166910,
+      "last_modified_utc": "2026-09-11T19:43:04.549900+00:00",
+      "sha256": "b8a6a39f936bdf1229fc0c392ddb5ab3cf1c3c2256413061c3d5618b00a972aa"
+    },
+    "data\\reference\\functional_assays.tsv": {
+      "bytes": 41580,
+      "last_modified_utc": "2026-09-11T20:50:45.718738+00:00",
+      "sha256": "5862162e187a3a5637ce4590f3b61555fba84004cb9e2b8cfdacc8a854073703"
+    },
+    "data\\reference\\functional_studies.tsv": {
+      "bytes": 535,
+      "last_modified_utc": "2026-09-11T19:23:48.202623+00:00",
+      "sha256": "12314cf202004ea467ab47affcc8279b4553e3b68dd4a838740108462b1ac04b"
+    },
+    "data\\reference\\functional_study_coverage.tsv": {
+      "bytes": 506,
+      "last_modified_utc": "2026-09-11T20:50:45.721738+00:00",
+      "sha256": "e6500bf9a7861b1f4b311e129571e60aab5610342ceb19aca0b3a51a05d922d8"
+    },
+    "plots\\avi_by_clinvar_class.png": {
+      "bytes": 157632,
+      "last_modified_utc": "2026-09-11T20:51:17.055454+00:00",
+      "sha256": "fef904b89ab1f1e63200262d1b3fa301e09d7cad1407205d83a8e736ce5599f0"
+    },
+    "plots\\avi_by_variant_region.png": {
+      "bytes": 131128,
+      "last_modified_utc": "2026-09-11T20:51:17.419590+00:00",
+      "sha256": "6cc669a6421139ace208fac799bcc2aed0c9c8fee8e242c0e9a3a948aae4579a"
+    },
+    "plots\\clinvar_class_counts.png": {
+      "bytes": 80499,
+      "last_modified_utc": "2026-09-11T20:51:16.857433+00:00",
+      "sha256": "2ba1d13ecd12c770df408d052152e0543925f7bceb684263b95e5949c5b69cf5"
+    },
+    "plots\\feature_attribution_heatmap.png": {
+      "bytes": 232230,
+      "last_modified_utc": "2026-09-11T20:51:17.693828+00:00",
+      "sha256": "a5627ec3f0c0286253694370c26ab7796e48b232ead068e09f8f0106a974e23c"
+    },
+    "plots\\functional_assay_comparison.png": {
+      "bytes": 836609,
+      "last_modified_utc": "2026-09-11T20:51:18.835902+00:00",
+      "sha256": "c9715839d0f0e217c22ad8a27ddad154e8032757907554245f821099f0a73d79"
+    },
+    "plots\\roc_pr_curves.png": {
+      "bytes": 136335,
+      "last_modified_utc": "2026-09-11T20:51:17.219571+00:00",
+      "sha256": "3a40b0a4e9c894597faa07c5da142828632c209960f46939c2041922bbdf2038"
+    },
+    "plots\\sentinel_variants.png": {
+      "bytes": 104965,
+      "last_modified_utc": "2026-09-11T20:51:17.819368+00:00",
+      "sha256": "54798ae6f8cdf21ce9169f36b4c4df40f490b54479bbdf7cda53f9ced5dfd0d5"
+    },
+    "plots\\showcase\\abca4_avi_functional_validation.png": {
+      "bytes": 334548,
+      "last_modified_utc": "2026-09-11T20:50:14.775368+00:00",
+      "sha256": "3e8ab52380663ba00586094e559494cd70a1f6666250aed95a3dd38bf59c4573"
+    },
+    "plots\\showcase\\abca4_avi_overview.png": {
+      "bytes": 619303,
+      "last_modified_utc": "2026-09-11T20:50:14.257652+00:00",
+      "sha256": "54cd4f22982bac8711f5e8e580531545d07c3c0800e8115c7f7acd804c19175f"
+    },
+    "plots\\showcase\\abca4_avi_signal_sources.png": {
+      "bytes": 306670,
+      "last_modified_utc": "2026-09-11T20:50:14.531720+00:00",
+      "sha256": "efa34f5c91e098d719686d4b6e74bc647312c025e308a44f7dd523b7fa9e69fc"
+    },
+    "results\\impressiveness_assessment.md": {
+      "bytes": 4126,
+      "last_modified_utc": "2026-09-11T20:50:14.778373+00:00",
+      "sha256": "677315e5ce4333c874ff4bcd3c59b845f5491045d3ac7f1592db7dab875a2693"
+    },
+    "results\\summary.md": {
+      "bytes": 2656,
+      "last_modified_utc": "2026-09-11T20:51:18.844905+00:00",
+      "sha256": "648bef063f3a18b6139d55403edc249bf46400582b861ea8810bb8c0051a54e3"
+    },
+    "results\\tables\\acceptance_checks.json": {
+      "bytes": 198,
+      "last_modified_utc": "2026-09-11T20:51:18.841903+00:00",
+      "sha256": "b52d6e9079e6e7108683c55dc0d1f17b12260f7b862aee1a015fc2e2d246d76e"
+    },
+    "results\\tables\\clinvar_exclusions.parquet": {
+      "bytes": 69959,
+      "last_modified_utc": "2026-09-11T20:02:50.228995+00:00",
+      "sha256": "ca89f3179e33e0d6f77714e7f042335a208ddf11465e4931d69fca1887eedb11"
+    },
+    "results\\tables\\clinvar_exclusions.tsv": {
+      "bytes": 335090,
+      "last_modified_utc": "2026-09-11T20:02:50.225539+00:00",
+      "sha256": "3c3704b5510ad3eb2d28859d5f473ccebb52610dccbed0422dcc108dce4b27f7"
+    },
+    "results\\tables\\functional_assays_scored.parquet": {
+      "bytes": 89209,
+      "last_modified_utc": "2026-09-11T20:50:45.749744+00:00",
+      "sha256": "4a371121dc006d0344edb62a83815773bfcd008dd418bc213dd221807e1a21aa"
+    },
+    "results\\tables\\functional_assays_scored.tsv": {
+      "bytes": 346727,
+      "last_modified_utc": "2026-09-11T20:50:45.743739+00:00",
+      "sha256": "8b38750defeb32d50c8c7913fb3019cc8a742e8899b5d35d0e562ef2ab9328d4"
+    },
+    "results\\tables\\metrics.json": {
+      "bytes": 17796,
+      "last_modified_utc": "2026-09-11T20:51:16.732589+00:00",
+      "sha256": "ce4f3d5fc59a50ecbc3d6491efc91e610904c93796951998e93fbf8b238d2473"
+    },
+    "results\\tables\\selected_track_attributions.parquet": {
+      "bytes": 15206,
+      "last_modified_utc": "2026-09-11T19:46:27.772533+00:00",
+      "sha256": "e83ec133c587f8ae7b9b22185ac2ed718ff1bfd8858d2d3ea26cc0eb0e419fba"
+    },
+    "results\\tables\\selected_track_attributions.tsv": {
+      "bytes": 79375,
+      "last_modified_utc": "2026-09-11T19:46:27.753289+00:00",
+      "sha256": "4efebe54dffbcb03151ea30eaa489f70b0eda966f87cc7acf35a8322d423bd7a"
+    },
+    "results\\tables\\sentinel_variants.parquet": {
+      "bytes": 48582,
+      "last_modified_utc": "2026-09-11T20:02:52.147250+00:00",
+      "sha256": "aeeb7ad650666484e20098dc9e462dcfba079f9eca8988969c5718e04f098bf6"
+    },
+    "results\\tables\\sentinel_variants.tsv": {
+      "bytes": 10199,
+      "last_modified_utc": "2026-09-11T20:02:52.143867+00:00",
+      "sha256": "6a6228c0caa0adda3ef8d75aa3b545bdb21d9bfa165fb395f922ce552addbc5c"
+    },
+    "results\\tables\\showcase_functional_correlations.parquet": {
+      "bytes": 7121,
+      "last_modified_utc": "2026-09-11T20:50:13.716973+00:00",
+      "sha256": "78f1e3147f9af66f0298de864555f829a198a90e1eae1124c780167f7f0dd56e"
+    },
+    "results\\tables\\showcase_functional_correlations.tsv": {
+      "bytes": 2656,
+      "last_modified_utc": "2026-09-11T20:50:13.715985+00:00",
+      "sha256": "c1a923f0563cd9e0cb1391ad06b1aee2e3cdf64ba50fdae390edc741e97066fa"
+    },
+    "results\\tables\\showcase_signal_diagnostics.parquet": {
+      "bytes": 5841,
+      "last_modified_utc": "2026-09-11T20:50:13.714970+00:00",
+      "sha256": "a19a4921477a7358df5d1a2ff0f3cd855dbc9d06c79f92d9606503c096b1255d"
+    },
+    "results\\tables\\showcase_signal_diagnostics.tsv": {
+      "bytes": 2046,
+      "last_modified_utc": "2026-09-11T20:50:13.712971+00:00",
+      "sha256": "71154c23a417bcdbdd0fc8bdb44f227edb461653896ea7e8f599d9e955204b8a"
+    },
+    "results\\tables\\variants_scored.parquet": {
+      "bytes": 949813,
+      "last_modified_utc": "2026-09-11T20:02:52.141865+00:00",
+      "sha256": "bb281900597cec721427e6bbf95d634d5690d53bc672154b4633ea9d6d5d12f3"
+    },
+    "results\\tables\\variants_scored.tsv": {
+      "bytes": 4779300,
+      "last_modified_utc": "2026-09-11T20:02:52.122257+00:00",
+      "sha256": "639f94591a79b33c7edd4d1a7fd585c3a631d9136fe532f1d57d4e3a7e0ed634"
+    }
+  },
+  "limitations": [
+    "AlphaGenome is for research use only.",
+    "AVI predicts molecular impact and does not establish disease causality, penetrance, or prognosis.",
+    "ClinVar aggregate classifications are categorical clinical evidence, not functional assay measurements."
+  ],
+  "packages": {
+    "abca4-avi": "0.1.0",
+    "alphagenome": "0.9.0",
+    "numpy": "2.5.3",
+    "pandas": "2.3.3",
+    "pyarrow": "25.0.1",
+    "scikit-learn": "1.9.1",
+    "scipy": "1.18.1"
+  },
+  "python": "3.12.3",
+  "query": "ABCA4[gene]",
+  "record_counts": {
+    "clinvar_records": 4670,
+    "primary": 2521,
+    "scored_unique_snvs": 4024
+  },
+  "sentinels": [
+    "c.4539+2001G>A",
+    "c.5461-10T>C",
+    "c.4539+2028C>T",
+    "c.769-784C>T"
+  ],
+  "sources": [
+    "https://www.ncbi.nlm.nih.gov/clinvar/docs/maintenance_use/",
+    "https://deepmind.google/science/alphagenome/",
+    "https://doi.org/10.3390/ijms22010185",
+    "https://doi.org/10.1101/gr.226621.117",
+    "https://doi.org/10.1167/iovs.65.10.2",
+    "https://doi.org/10.1167/iovs.66.1.65"
+  ]
+}

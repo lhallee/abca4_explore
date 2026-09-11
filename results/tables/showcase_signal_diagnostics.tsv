@@ -1,0 +1,21 @@
+cohort	cohort_label	signal	n	n_positive	n_negative	roc_auc	average_precision
+all	All primary	Full AVI	2521	1092	1429	0.9903432816308954	0.9910769819839949
+all	All primary	All AlphaGenome attributions	2521	1092	1429	0.653162384617948	0.665712632262817
+all	All primary	AlphaMissense attribution	2521	1092	1429	0.7949656769635776	0.772074581654124
+all	All primary	Conservation attributions	2521	1092	1429	0.9497849363139776	0.9564086113490641
+all	All primary	Splicing attribution	2521	1092	1429	0.6850906266581565	0.6927775805771501
+coding_missense	Coding missense	Full AVI	690	659	31	0.9661265847569632	0.9983049810659275
+coding_missense	Coding missense	All AlphaGenome attributions	690	659	31	0.5534289490430271	0.9643198995127886
+coding_missense	Coding missense	AlphaMissense attribution	690	659	31	0.9613294825982672	0.9980571914662633
+coding_missense	Coding missense	Conservation attributions	690	659	31	0.9024426060991727	0.9939150925942811
+coding_missense	Coding missense	Splicing attribution	690	659	31	0.5837290126780557	0.9678870263893382
+splice_region	Splice region	Full AVI	499	30	469	0.9529495380241649	0.8775951970039184
+splice_region	Splice region	All AlphaGenome attributions	499	30	469	0.9778962331201138	0.8455941544825626
+splice_region	Splice region	AlphaMissense attribution	499	30	469	0.5	0.06012024048096192
+splice_region	Splice region	Conservation attributions	499	30	469	0.8605543710021321	0.6674392300984786
+splice_region	Splice region	Splicing attribution	499	30	469	0.9909737029140014	0.894513663560283
+deep_intronic	Deep intronic	Full AVI	236	21	215	0.8697674418604652	0.602605662940705
+deep_intronic	Deep intronic	All AlphaGenome attributions	236	21	215	0.8892580287929125	0.6791603536610471
+deep_intronic	Deep intronic	AlphaMissense attribution	236	21	215	0.49767441860465117	0.08898305084745763
+deep_intronic	Deep intronic	Conservation attributions	236	21	215	0.5384274640088594	0.15720646553649512
+deep_intronic	Deep intronic	Splicing attribution	236	21	215	0.9530454042081948	0.8495647740110162

@@ -1,0 +1,10 @@
+.secrets.env
+.env
+.venv/
+.uv-cache*/
+__pycache__/
+.pytest_cache/
+.ruff_cache/
+*.py[cod]
+data/cache/
+data/reference/alphagenome_atlas.pdf

@@ -1,0 +1,5 @@
+study_key	doi	expected_variant_count	assay_rows_extracted	unique_variants_extracted	status
+garces_2021	https://doi.org/10.3390/ijms22010185	38	114	38	quantitative_table_extracted
+sangermano_2018	https://doi.org/10.1101/gr.226621.117	47	47	47	quantitative_table_extracted
+aslaksen_2024	https://doi.org/10.1167/iovs.65.10.2	10	40	10	quantitative_table_extracted
+wang_2025	https://doi.org/10.1167/iovs.66.1.65	7	7	7	all variants represented; exact quantitative band fractions require figure digitization

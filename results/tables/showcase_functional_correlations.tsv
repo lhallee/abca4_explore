@@ -1,0 +1,17 @@
+study_key	study	assay_group	assay	predictor	predictor_label	n	spearman_rho	ci_lower	ci_upper
+aslaksen_2024	Aslaksen 2024	protein_basal_atpase	Basal ATPase	avi_phred	Full AVI	8	-0.34731161595484505	-0.955046737940538	0.6153846153846154
+aslaksen_2024	Aslaksen 2024	protein_basal_atpase	Basal ATPase	fi_ALPHAMISSENSE	AlphaMissense attribution	8	-0.407192929050508	-0.9805806756909201	0.5074735304479538
+aslaksen_2024	Aslaksen 2024	protein_expression	Protein expression	avi_phred	Full AVI	8	0.0	-0.6708860759493672	0.9062499999999998
+aslaksen_2024	Aslaksen 2024	protein_expression	Protein expression	fi_ALPHAMISSENSE	AlphaMissense attribution	8	0.04761904761904763	-0.6221067221067221	0.9999999999999998
+aslaksen_2024	Aslaksen 2024	protein_f_index	F-index	avi_phred	Full AVI	8	-0.4285714285714286	-0.9259259259259259	0.46835443037974694
+aslaksen_2024	Aslaksen 2024	protein_f_index	F-index	fi_ALPHAMISSENSE	AlphaMissense attribution	8	-0.4523809523809524	-1.0	0.443146235842771
+aslaksen_2024	Aslaksen 2024	protein_ret_pe_induced_atpase	Retinoid-stimulated ATPase	avi_phred	Full AVI	8	-0.3333333333333334	-0.9230769230769231	0.6153846153846154
+aslaksen_2024	Aslaksen 2024	protein_ret_pe_induced_atpase	Retinoid-stimulated ATPase	fi_ALPHAMISSENSE	AlphaMissense attribution	8	-0.38095238095238104	-0.9259259259259259	0.5406346219637354
+garces_2021	Garces 2021	protein_basal_atpase	Basal ATPase	avi_phred	Full AVI	35	-0.3914536142051844	-0.6833552044373731	-0.05953092996174612
+garces_2021	Garces 2021	protein_basal_atpase	Basal ATPase	fi_ALPHAMISSENSE	AlphaMissense attribution	35	-0.5067601011382076	-0.7078123727628639	-0.22002272379258256
+garces_2021	Garces 2021	protein_expression	Protein expression	avi_phred	Full AVI	35	-0.46954951229040576	-0.6771384549547623	-0.183139233009854
+garces_2021	Garces 2021	protein_expression	Protein expression	fi_ALPHAMISSENSE	AlphaMissense attribution	35	-0.6357840560445613	-0.7682744719402193	-0.3674215694175152
+garces_2021	Garces 2021	protein_ret_pe_induced_atpase	Retinoid-stimulated ATPase	avi_phred	Full AVI	35	-0.3769435532147787	-0.6806834932996974	-0.022290458804698716
+garces_2021	Garces 2021	protein_ret_pe_induced_atpase	Retinoid-stimulated ATPase	fi_ALPHAMISSENSE	AlphaMissense attribution	35	-0.5081944299751828	-0.760249770677376	-0.1578738273632369
+sangermano_2018	Sangermano 2018	splicing_correct_mrna	Correctly spliced mRNA	avi_phred	Full AVI	32	-0.29389864992907316	-0.5943269669904913	0.056787550223548575
+sangermano_2018	Sangermano 2018	splicing_correct_mrna	Correctly spliced mRNA	fi_MERGED_SPLICING	Splicing attribution	32	-0.4287201076338132	-0.6959896262831016	-0.07407046207100378

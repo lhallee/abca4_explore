@@ -1,0 +1,4 @@
+interface:
+  display_name: "ABCA4 AlphaGenome"
+  short_description: "Run the ABCA4 ClinVar and AlphaGenome AVI workflow"
+  default_prompt: "Use $abca4-alphagenome to run or maintain the ABCA4 AVI analysis safely and reproducibly."

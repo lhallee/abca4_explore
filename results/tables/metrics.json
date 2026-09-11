@@ -1,0 +1,569 @@
+{
+  "clinical": {
+    "all_review_statuses": {
+      "average_precision": 0.9910769819839949,
+      "confidence_intervals_95": {
+        "average_precision": [
+          0.9879162733640628,
+          0.9939997682963775
+        ],
+        "point_biserial_r": [
+          0.8458986449823246,
+          0.8643601494390576
+        ],
+        "pr_auc_trapezoidal": [
+          0.9879073852730971,
+          0.9939961435470244
+        ],
+        "rank_biserial": [
+          0.9727026443349046,
+          0.9876020847591876
+        ],
+        "roc_auc": [
+          0.9863513221674524,
+          0.9938010423795938
+        ]
+      },
+      "mann_whitney_p": 0.0,
+      "mann_whitney_u": 1545399.0,
+      "n": 2521,
+      "n_negative": 1429,
+      "n_positive": 1092,
+      "name": "all_review_statuses",
+      "point_biserial_p": 0.0,
+      "point_biserial_r": 0.8554830542147054,
+      "pr_auc_trapezoidal": 0.9910739125338167,
+      "prevalence": 0.4331614438714796,
+      "rank_biserial": 0.9806865632617907,
+      "roc_auc": 0.9903432816308954,
+      "status": "ok",
+      "thresholds": [
+        {
+          "balanced_accuracy": 0.9688167267768388,
+          "f1": 0.9657407407407408,
+          "false_negative": 49,
+          "false_positive": 25,
+          "negative_predictive_value": 0.9662766689607708,
+          "positive_predictive_value": 0.9765917602996255,
+          "sensitivity": 0.9551282051282052,
+          "specificity": 0.9825052484254724,
+          "threshold": 20.0,
+          "true_negative": 1404,
+          "true_positive": 1043
+        },
+        {
+          "balanced_accuracy": 0.63003663003663,
+          "f1": 0.4127906976744186,
+          "false_negative": 808,
+          "false_positive": 0,
+          "negative_predictive_value": 0.6388019669199821,
+          "positive_predictive_value": 1.0,
+          "sensitivity": 0.2600732600732601,
+          "specificity": 1.0,
+          "threshold": 30.0,
+          "true_negative": 1429,
+          "true_positive": 284
+        }
+      ]
+    },
+    "primary_at_least_one_star": {
+      "average_precision": 0.9910769819839949,
+      "confidence_intervals_95": {
+        "average_precision": [
+          0.9879162733640628,
+          0.9939997682963775
+        ],
+        "point_biserial_r": [
+          0.8458986449823246,
+          0.8643601494390576
+        ],
+        "pr_auc_trapezoidal": [
+          0.9879073852730971,
+          0.9939961435470244
+        ],
+        "rank_biserial": [
+          0.9727026443349046,
+          0.9876020847591876
+        ],
+        "roc_auc": [
+          0.9863513221674524,
+          0.9938010423795938
+        ]
+      },
+      "mann_whitney_p": 0.0,
+      "mann_whitney_u": 1545399.0,
+      "n": 2521,
+      "n_negative": 1429,
+      "n_positive": 1092,
+      "name": "primary_at_least_one_star",
+      "point_biserial_p": 0.0,
+      "point_biserial_r": 0.8554830542147054,
+      "pr_auc_trapezoidal": 0.9910739125338167,
+      "prevalence": 0.4331614438714796,
+      "rank_biserial": 0.9806865632617907,
+      "roc_auc": 0.9903432816308954,
+      "status": "ok",
+      "thresholds": [
+        {
+          "balanced_accuracy": 0.9688167267768388,
+          "f1": 0.9657407407407408,
+          "false_negative": 49,
+          "false_positive": 25,
+          "negative_predictive_value": 0.9662766689607708,
+          "positive_predictive_value": 0.9765917602996255,
+          "sensitivity": 0.9551282051282052,
+          "specificity": 0.9825052484254724,
+          "threshold": 20.0,
+          "true_negative": 1404,
+          "true_positive": 1043
+        },
+        {
+          "balanced_accuracy": 0.63003663003663,
+          "f1": 0.4127906976744186,
+          "false_negative": 808,
+          "false_positive": 0,
+          "negative_predictive_value": 0.6388019669199821,
+          "positive_predictive_value": 1.0,
+          "sensitivity": 0.2600732600732601,
+          "specificity": 1.0,
+          "threshold": 30.0,
+          "true_negative": 1429,
+          "true_positive": 284
+        }
+      ]
+    },
+    "primary_canonical_splice": {
+      "n": 119,
+      "n_negative": 0,
+      "n_positive": 119,
+      "name": "primary_canonical_splice",
+      "status": "insufficient_class_size"
+    },
+    "primary_coding_missense": {
+      "average_precision": 0.9983049810659275,
+      "confidence_intervals_95": {
+        "average_precision": [
+          0.9970869814899427,
+          0.9992928213468661
+        ],
+        "point_biserial_r": [
+          0.47297241101110915,
+          0.6373972967077556
+        ],
+        "pr_auc_trapezoidal": [
+          0.997082438999845,
+          0.9992917877990548
+        ],
+        "rank_biserial": [
+          0.8847716481472416,
+          0.9711219345048705
+        ],
+        "roc_auc": [
+          0.9423858240736209,
+          0.9855609672524352
+        ]
+      },
+      "mann_whitney_p": 1.6460309051819526e-18,
+      "mann_whitney_u": 19737.0,
+      "n": 690,
+      "n_negative": 31,
+      "n_positive": 659,
+      "name": "primary_coding_missense",
+      "point_biserial_p": 1.0885349740532013e-57,
+      "point_biserial_r": 0.5578624326493483,
+      "pr_auc_trapezoidal": 0.9983036037668049,
+      "prevalence": 0.9550724637681159,
+      "rank_biserial": 0.9322531695139262,
+      "roc_auc": 0.9661265847569632,
+      "status": "ok",
+      "thresholds": [
+        {
+          "balanced_accuracy": 0.8650937392921827,
+          "f1": 0.9722222222222222,
+          "false_negative": 29,
+          "false_positive": 7,
+          "negative_predictive_value": 0.4528301886792453,
+          "positive_predictive_value": 0.989010989010989,
+          "sensitivity": 0.9559939301972686,
+          "specificity": 0.7741935483870968,
+          "threshold": 20.0,
+          "true_negative": 24,
+          "true_positive": 630
+        },
+        {
+          "balanced_accuracy": 0.5508345978755691,
+          "f1": 0.18457300275482094,
+          "false_negative": 592,
+          "false_positive": 0,
+          "negative_predictive_value": 0.04975922953451043,
+          "positive_predictive_value": 1.0,
+          "sensitivity": 0.10166919575113809,
+          "specificity": 1.0,
+          "threshold": 30.0,
+          "true_negative": 31,
+          "true_positive": 67
+        }
+      ]
+    },
+    "primary_deep_intronic": {
+      "average_precision": 0.602605662940705,
+      "confidence_intervals_95": {
+        "average_precision": [
+          0.4231118255246716,
+          0.7831931082271925
+        ],
+        "point_biserial_r": [
+          0.38683910054502996,
+          0.6376703845872465
+        ],
+        "pr_auc_trapezoidal": [
+          0.40360698770619957,
+          0.7758323591600719
+        ],
+        "rank_biserial": [
+          0.5676633444075305,
+          0.883499446290144
+        ],
+        "roc_auc": [
+          0.7838316722037653,
+          0.941749723145072
+        ]
+      },
+      "mann_whitney_p": 2.2821516836109192e-08,
+      "mann_whitney_u": 3927.0,
+      "n": 236,
+      "n_negative": 215,
+      "n_positive": 21,
+      "name": "primary_deep_intronic",
+      "point_biserial_p": 7.86424878928813e-18,
+      "point_biserial_r": 0.5211080202733577,
+      "pr_auc_trapezoidal": 0.5971183550450102,
+      "prevalence": 0.08898305084745763,
+      "rank_biserial": 0.7395348837209301,
+      "roc_auc": 0.8697674418604652,
+      "status": "ok",
+      "thresholds": [
+        {
+          "balanced_accuracy": 0.6666666666666666,
+          "f1": 0.5,
+          "false_negative": 14,
+          "false_positive": 0,
+          "negative_predictive_value": 0.9388646288209607,
+          "positive_predictive_value": 1.0,
+          "sensitivity": 0.3333333333333333,
+          "specificity": 1.0,
+          "threshold": 20.0,
+          "true_negative": 215,
+          "true_positive": 7
+        },
+        {
+          "balanced_accuracy": 0.5,
+          "f1": 0.0,
+          "false_negative": 21,
+          "false_positive": 0,
+          "negative_predictive_value": 0.9110169491525424,
+          "positive_predictive_value": null,
+          "sensitivity": 0.0,
+          "specificity": 1.0,
+          "threshold": 30.0,
+          "true_negative": 215,
+          "true_positive": 0
+        }
+      ]
+    },
+    "primary_splice_region": {
+      "average_precision": 0.8775951970039184,
+      "confidence_intervals_95": {
+        "average_precision": [
+          0.7729038291033999,
+          0.9674458895925075
+        ],
+        "point_biserial_r": [
+          0.5199845125525991,
+          0.6562288320937084
+        ],
+        "pr_auc_trapezoidal": [
+          0.7703396553619554,
+          0.9670516957495524
+        ],
+        "rank_biserial": [
+          0.7644456289978679,
+          0.9907640369580668
+        ],
+        "roc_auc": [
+          0.8822228144989338,
+          0.9953820184790334
+        ]
+      },
+      "mann_whitney_p": 8.592381845694695e-17,
+      "mann_whitney_u": 13408.0,
+      "n": 499,
+      "n_negative": 469,
+      "n_positive": 30,
+      "name": "primary_splice_region",
+      "point_biserial_p": 1.5571564549371296e-48,
+      "point_biserial_r": 0.5920971869647905,
+      "pr_auc_trapezoidal": 0.8768613644377456,
+      "prevalence": 0.06012024048096192,
+      "rank_biserial": 0.9058990760483299,
+      "roc_auc": 0.9529495380241649,
+      "status": "ok",
+      "thresholds": [
+        {
+          "balanced_accuracy": 0.8978678038379531,
+          "f1": 0.8571428571428571,
+          "false_negative": 6,
+          "false_positive": 2,
+          "negative_predictive_value": 0.9873150105708245,
+          "positive_predictive_value": 0.9230769230769231,
+          "sensitivity": 0.8,
+          "specificity": 0.9957356076759062,
+          "threshold": 20.0,
+          "true_negative": 467,
+          "true_positive": 24
+        },
+        {
+          "balanced_accuracy": 0.5,
+          "f1": 0.0,
+          "false_negative": 30,
+          "false_positive": 0,
+          "negative_predictive_value": 0.9398797595190381,
+          "positive_predictive_value": null,
+          "sensitivity": 0.0,
+          "specificity": 1.0,
+          "threshold": 30.0,
+          "true_negative": 469,
+          "true_positive": 0
+        }
+      ]
+    },
+    "stgd1_at_least_one_star": {
+      "average_precision": 0.9974187808793964,
+      "confidence_intervals_95": {
+        "average_precision": [
+          0.9954815414216741,
+          0.998911875378734
+        ],
+        "point_biserial_r": [
+          0.5155327679621224,
+          0.6628247335621521
+        ],
+        "pr_auc_trapezoidal": [
+          0.9954689595258087,
+          0.9989093360768154
+        ],
+        "rank_biserial": [
+          0.8866650969311671,
+          0.971901734557727
+        ],
+        "roc_auc": [
+          0.9433325484655835,
+          0.9859508672788635
+        ]
+      },
+      "mann_whitney_p": 3.855334024345562e-18,
+      "mann_whitney_u": 12326.0,
+      "n": 442,
+      "n_negative": 31,
+      "n_positive": 411,
+      "name": "stgd1_at_least_one_star",
+      "point_biserial_p": 5.794919926519103e-43,
+      "point_biserial_r": 0.5909431173477201,
+      "pr_auc_trapezoidal": 0.9974154563258504,
+      "prevalence": 0.9298642533936652,
+      "rank_biserial": 0.9348559767679145,
+      "roc_auc": 0.9674279883839574,
+      "status": "ok",
+      "thresholds": [
+        {
+          "balanced_accuracy": 0.8788949062083038,
+          "f1": 0.9678217821782178,
+          "false_negative": 20,
+          "false_positive": 6,
+          "negative_predictive_value": 0.5555555555555556,
+          "positive_predictive_value": 0.9848866498740554,
+          "sensitivity": 0.9513381995133819,
+          "specificity": 0.8064516129032258,
+          "threshold": 20.0,
+          "true_negative": 25,
+          "true_positive": 391
+        },
+        {
+          "balanced_accuracy": 0.6265206812652069,
+          "f1": 0.40388349514563104,
+          "false_negative": 307,
+          "false_positive": 0,
+          "negative_predictive_value": 0.09171597633136094,
+          "positive_predictive_value": 1.0,
+          "sensitivity": 0.25304136253041365,
+          "specificity": 1.0,
+          "threshold": 30.0,
+          "true_negative": 31,
+          "true_positive": 104
+        }
+      ]
+    }
+  },
+  "functional": [
+    {
+      "assay_group": "protein_basal_atpase",
+      "effect_name": "basal_atpase",
+      "effect_unit": "reported relative percent",
+      "n": 8,
+      "predictor": "avi_phred",
+      "spearman_p": 0.39926387420328163,
+      "spearman_rho": -0.34731161595484505,
+      "study_key": "aslaksen_2024"
+    },
+    {
+      "assay_group": "protein_basal_atpase",
+      "effect_name": "basal_atpase",
+      "effect_unit": "reported relative percent",
+      "n": 8,
+      "predictor": "fi_ALPHAMISSENSE",
+      "spearman_p": 0.31670918491612826,
+      "spearman_rho": -0.407192929050508,
+      "study_key": "aslaksen_2024"
+    },
+    {
+      "assay_group": "protein_expression",
+      "effect_name": "expression",
+      "effect_unit": "reported relative percent",
+      "n": 8,
+      "predictor": "avi_phred",
+      "spearman_p": 1.0,
+      "spearman_rho": 0.0,
+      "study_key": "aslaksen_2024"
+    },
+    {
+      "assay_group": "protein_expression",
+      "effect_name": "expression",
+      "effect_unit": "reported relative percent",
+      "n": 8,
+      "predictor": "fi_ALPHAMISSENSE",
+      "spearman_p": 0.9108491685195836,
+      "spearman_rho": 0.04761904761904763,
+      "study_key": "aslaksen_2024"
+    },
+    {
+      "assay_group": "protein_f_index",
+      "effect_name": "f_index",
+      "effect_unit": "reported relative percent",
+      "n": 8,
+      "predictor": "avi_phred",
+      "spearman_p": 0.2894032248467901,
+      "spearman_rho": -0.4285714285714286,
+      "study_key": "aslaksen_2024"
+    },
+    {
+      "assay_group": "protein_f_index",
+      "effect_name": "f_index",
+      "effect_unit": "reported relative percent",
+      "n": 8,
+      "predictor": "fi_ALPHAMISSENSE",
+      "spearman_p": 0.2604047674368853,
+      "spearman_rho": -0.4523809523809524,
+      "study_key": "aslaksen_2024"
+    },
+    {
+      "assay_group": "protein_ret_pe_induced_atpase",
+      "effect_name": "ret_pe_induced_atpase",
+      "effect_unit": "reported relative percent",
+      "n": 8,
+      "predictor": "avi_phred",
+      "spearman_p": 0.4197530864197532,
+      "spearman_rho": -0.3333333333333334,
+      "study_key": "aslaksen_2024"
+    },
+    {
+      "assay_group": "protein_ret_pe_induced_atpase",
+      "effect_name": "ret_pe_induced_atpase",
+      "effect_unit": "reported relative percent",
+      "n": 8,
+      "predictor": "fi_ALPHAMISSENSE",
+      "spearman_p": 0.35181255311756476,
+      "spearman_rho": -0.38095238095238104,
+      "study_key": "aslaksen_2024"
+    },
+    {
+      "assay_group": "protein_basal_atpase",
+      "effect_name": "basal_atpase",
+      "effect_unit": "reported relative percent",
+      "n": 35,
+      "predictor": "avi_phred",
+      "spearman_p": 0.020049041491976678,
+      "spearman_rho": -0.3914536142051844,
+      "study_key": "garces_2021"
+    },
+    {
+      "assay_group": "protein_basal_atpase",
+      "effect_name": "basal_atpase",
+      "effect_unit": "reported relative percent",
+      "n": 35,
+      "predictor": "fi_ALPHAMISSENSE",
+      "spearman_p": 0.001892756541870078,
+      "spearman_rho": -0.5067601011382076,
+      "study_key": "garces_2021"
+    },
+    {
+      "assay_group": "protein_expression",
+      "effect_name": "expression",
+      "effect_unit": "reported relative percent",
+      "n": 35,
+      "predictor": "avi_phred",
+      "spearman_p": 0.004430426764261978,
+      "spearman_rho": -0.46954951229040576,
+      "study_key": "garces_2021"
+    },
+    {
+      "assay_group": "protein_expression",
+      "effect_name": "expression",
+      "effect_unit": "reported relative percent",
+      "n": 35,
+      "predictor": "fi_ALPHAMISSENSE",
+      "spearman_p": 4.057234346799183e-05,
+      "spearman_rho": -0.6357840560445613,
+      "study_key": "garces_2021"
+    },
+    {
+      "assay_group": "protein_ret_pe_induced_atpase",
+      "effect_name": "ret_pe_induced_atpase",
+      "effect_unit": "reported relative percent",
+      "n": 35,
+      "predictor": "avi_phred",
+      "spearman_p": 0.025608587396120958,
+      "spearman_rho": -0.3769435532147787,
+      "study_key": "garces_2021"
+    },
+    {
+      "assay_group": "protein_ret_pe_induced_atpase",
+      "effect_name": "ret_pe_induced_atpase",
+      "effect_unit": "reported relative percent",
+      "n": 35,
+      "predictor": "fi_ALPHAMISSENSE",
+      "spearman_p": 0.00182818152030615,
+      "spearman_rho": -0.5081944299751828,
+      "study_key": "garces_2021"
+    },
+    {
+      "assay_group": "splicing_correct_mrna",
+      "effect_name": "correctly_spliced_mrna",
+      "effect_unit": "percent",
+      "n": 32,
+      "predictor": "avi_phred",
+      "spearman_p": 0.10253574813701175,
+      "spearman_rho": -0.29389864992907316,
+      "study_key": "sangermano_2018"
+    },
+    {
+      "assay_group": "splicing_correct_mrna",
+      "effect_name": "correctly_spliced_mrna",
+      "effect_unit": "percent",
+      "n": 32,
+      "predictor": "fi_MERGED_SPLICING",
+      "spearman_p": 0.014355120681427887,
+      "spearman_rho": -0.4287201076338132,
+      "study_key": "sangermano_2018"
+    }
+  ]
+}
