@@ -7,9 +7,6 @@ how deterministic ABCA4 protein products alter a predicted human interaction
 profile. ClinVar classifications and published functional assays provide the
 reference evidence.
 
-**Research use only.** These are molecular predictions and rankings, not clinical
-classifications, diagnoses, or measurements of binding.
-
 ## Abstract
 
 We retrieved 4,670 `ABCA4[gene]` ClinVar records and scored 4,024 unique,
