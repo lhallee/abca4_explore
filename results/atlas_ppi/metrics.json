@@ -1,0 +1,122 @@
+{
+  "avi_vs_jaccard": {
+    "bootstrap_replicates": 2000,
+    "ci95": [
+      0.18287621264440895,
+      0.277861884254191
+    ],
+    "n": 1849,
+    "p_value": 1.369446425283904e-23,
+    "rho": 0.22983630444285966,
+    "seed": 20260911
+  },
+  "avi_vs_jaccard_by_effect": {
+    "missense": {
+      "bootstrap_replicates": 2000,
+      "ci95": [
+        -0.052132755387534264,
+        0.042634883257093685
+      ],
+      "n": 1680,
+      "p_value": 0.8611075152710885,
+      "rho": -0.004271857185800357,
+      "seed": 20260911
+    },
+    "stop_gain": {
+      "bootstrap_replicates": 2000,
+      "ci95": [
+        -0.15649118662453734,
+        0.1316301177683139
+      ],
+      "n": 169,
+      "p_value": 0.9183445115241378,
+      "rho": -0.007944939338558544,
+      "seed": 20260911
+    }
+  },
+  "clinical_class_discrimination": {
+    "bootstrap_replicates": 2000,
+    "ci95": [
+      0.5840114231078904,
+      0.7462321356682768
+    ],
+    "n_negative": 27,
+    "n_positive": 736,
+    "roc_auc": 0.66460346215781,
+    "seed": 20260911
+  },
+  "enrichment": {
+    "global_fdr_significant_rows": 177,
+    "global_fdr_significant_sequences": 36
+  },
+  "network": {
+    "maximum_changed_partner_count": 758,
+    "median_changed_partner_count": 4.0,
+    "wild_type_partner_count": 162
+  },
+  "threshold_sweep": {
+    "best_clinical_roc_auc": {
+      "threshold": 0.44,
+      "value": 0.7353059581320451
+    },
+    "best_strong_frequency_control_roc_auc": {
+      "threshold": 0.88,
+      "value": 0.7020073632538569
+    },
+    "best_supporting_frequency_control_roc_auc": {
+      "threshold": 0.62,
+      "value": 0.6759510869565217
+    },
+    "grid": {
+      "count": 68,
+      "maximum": 0.99,
+      "minimum": 0.33
+    },
+    "prespecified_threshold": {
+      "avi_spearman_rho": 0.22983630444285966,
+      "clinical_roc_auc": 0.66460346215781,
+      "missense_avi_spearman_rho": -0.004271857185800357,
+      "strong_frequency_control_negative_sequences": 31,
+      "strong_frequency_control_positive_sequences": 736,
+      "strong_frequency_control_roc_auc": 0.6495441795231417,
+      "supporting_frequency_control_negative_sequences": 67,
+      "supporting_frequency_control_positive_sequences": 736,
+      "supporting_frequency_control_roc_auc": 0.6256489292667099,
+      "threshold": 0.9
+    },
+    "published_operating_threshold": {
+      "avi_spearman_rho": 0.2932615952516895,
+      "clinical_roc_auc": 0.7035024154589372,
+      "missense_avi_spearman_rho": 0.0796120229419045,
+      "strong_frequency_control_negative_sequences": 31,
+      "strong_frequency_control_positive_sequences": 736,
+      "strong_frequency_control_roc_auc": 0.6598001402524544,
+      "supporting_frequency_control_negative_sequences": 67,
+      "supporting_frequency_control_positive_sequences": 736,
+      "supporting_frequency_control_roc_auc": 0.6316312459441921,
+      "threshold": 0.3380771279335022
+    },
+    "selected_threshold": {
+      "avi_spearman_rho": 0.22983630444285966,
+      "clinical_roc_auc": 0.66460346215781,
+      "missense_avi_spearman_rho": -0.004271857185800357,
+      "strong_frequency_control_negative_sequences": 31,
+      "strong_frequency_control_positive_sequences": 736,
+      "strong_frequency_control_roc_auc": 0.6495441795231417,
+      "supporting_frequency_control_negative_sequences": 67,
+      "supporting_frequency_control_positive_sequences": 736,
+      "supporting_frequency_control_roc_auc": 0.6256489292667099,
+      "threshold": 0.9
+    },
+    "selection_status": "exploratory_same_cohort_optimization",
+    "selection_warning": "Threshold maxima are optimistic because the same ClinVar cohort was used for selection and evaluation.",
+    "strongest_absolute_avi_association": {
+      "threshold": 0.57,
+      "value": 0.3504578401783503
+    },
+    "strongest_absolute_missense_avi_association": {
+      "threshold": 0.57,
+      "value": 0.1544605194293878
+    }
+  }
+}

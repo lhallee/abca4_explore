@@ -1,0 +1,26 @@
+{
+  "candidate_label_scope": "population-compatible; not clinical benign",
+  "counts": {
+    "already_in_clinvar_snapshot": 52,
+    "already_screened_by_atlas_ppi": 52,
+    "frequency_candidates": 54,
+    "gnomad_missense_snvs": 3262,
+    "new_sequences_requiring_embedding": 2,
+    "vcep_excluded": 6
+  },
+  "dataset": "gnomad_r4",
+  "grpmax_method": "maximum joint AF after excluding gnomAD v4 bottlenecked and remaining ancestry groups",
+  "retrieved_at": "2026-09-12T00:34:49.438354+00:00",
+  "thresholds": {
+    "ba1": 0.163,
+    "bs1_strong": 0.0163,
+    "bs1_supporting": 0.00163
+  },
+  "tiers": {
+    "ba1_candidate": 2,
+    "below_supporting_threshold": 3202,
+    "bs1_strong_candidate": 10,
+    "bs1_supporting_candidate": 42,
+    "excluded_vcep_reduced_penetrance_or_hypomorphic": 6
+  }
+}

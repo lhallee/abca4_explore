@@ -1,0 +1,4 @@
+Notification recorded 2026-09-11.
+
+Review the ClinVar terms and usage information before using ClinVar data:
+https://www.ncbi.nlm.nih.gov/clinvar/

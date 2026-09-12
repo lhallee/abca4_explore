@@ -78,3 +78,52 @@ AVI used gnomAD frequency-derived proxy labels and included chromosome 1 in its
 training partition. The public API does not expose the sampled training
 coordinates, so this repository cannot reproduce the official position-overlap
 filter. The reported clinical discrimination is therefore retrospective.
+
+## Atlas-PPI cached-embedding extension
+
+Reviewed UniProt P78363 was required to match RefSeq NP_000341.2 exactly before
+protein construction. Canonical `NM_000350.3` protein annotations were preferred
+over isoform-level ClinVar `hgvs_p` values and every substituted residue was
+validated against the reference. Deterministic missense, synonymous, stop-gain,
+and post-terminal stop-loss consequences were handled. Missing, ambiguous, and
+splice-dependent products were excluded with explicit reasons.
+
+Sequences were truncated to residues 1 through 2,044, hashed with SHA-256, and
+deduplicated. A dedicated ephemeral Modal H100 app embedded each unique sequence
+once on both Atlas-PPI towers. The existing human UP000005640 cache supplied
+20,659 tower-A and tower-B vectors. Forward and reverse scores used the current
+Atlas predictor's native sigmoid and directional averaging. Only scores strictly
+greater than 0.9 were included in the prespecified sparse interaction table. The
+complete merged probability matrix was saved as a row-major float32 NumPy array.
+Separate query and human reference tables define its rows and columns.
+
+For each unique product, partner gains and losses, Jaccard distance from WT, and
+score-change summaries were calculated at the prespecified 0.9 threshold. A
+68-point sensitivity sweep from 0.33 through 0.99 ran on a CPU-only Modal worker
+against the saved matrix. The grid includes the exact calibrated Atlas-PPI
+operating point, 0.3380771279335022. It recorded clinical ROC-AUC and overall
+and missense-only AVI Spearman associations at each threshold.
+
+Population-control sensitivity cohorts used gnomAD v4 joint frequencies.
+Group-maximum allele frequency excluded the ancestry groups omitted by gnomAD
+v4 groupmax calculations. Candidate thresholds followed the ABCA4 VCEP
+specification: greater than 0.0163 for strong BS1 evidence and greater than
+0.00163 for supporting BS1 evidence. The seven VCEP-listed hypomorphic or
+reduced-penetrance exclusions were removed. P/LP and mixed-class sequences were
+never relabeled. These controls are population-compatible proxies, not clinical
+benign classifications.
+GO BP, GO MF, GO CC, KEGG, and Reactome over-representation used the fixed human
+cache background. Gained-versus-lost concentration within each pathway used a
+two-sided Fisher exact test, Haldane-corrected log2 odds ratios, within-screen BH
+q-values, and global per-library BH q-values.
+
+Primary association statistics were calculated over unique non-WT protein
+sequences, then joined back to genomic records. Spearman and ROC-AUC intervals
+used 2,000 fixed-seed bootstrap samples. The training-overlap audit searched the
+checkpoint-associated public sequence universe. Public split-level interaction
+rows were not available, so pair-level overlap could not be tested.
+
+Threshold maxima are reported as exploratory same-cohort optimization. They are
+optimistically biased because the same ClinVar labels were used for selection
+and evaluation. The 0.9 analysis remains primary unless a selected threshold is
+validated independently or through nested resampling.

@@ -1,0 +1,4 @@
+Notification recorded 2026-09-11.
+
+Review the dbSNP terms and usage information before using dbSNP data:
+https://www.ncbi.nlm.nih.gov/snp/

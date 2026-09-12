@@ -8,3 +8,5 @@ __pycache__/
 *.py[cod]
 data/cache/
 data/reference/alphagenome_atlas.pdf
+results/atlas_ppi/atlas_scores.float32.npy
+results/atlas_ppi/smoke/atlas_scores.float32.npy

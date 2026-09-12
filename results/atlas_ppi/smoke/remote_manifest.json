@@ -1,0 +1,75 @@
+{
+  "bidirectional": true,
+  "cache_compatibility": {
+    "tower_a_cosine": 1.0000001192092896,
+    "tower_a_max_abs_difference": 0.0,
+    "tower_b_cosine": 1.000000238418579,
+    "tower_b_max_abs_difference": 0.0
+  },
+  "completed_at": "2026-09-11T23:52:29.729376+00:00",
+  "dense_score_persisted": true,
+  "dense_score_shape": [
+    2,
+    128
+  ],
+  "file_sha256": {
+    "atlas_scores.float32.npy": "ef6ce5025fd6c9c66e78136a480c99e2eb90a7df806f46af3d4b76e1bc383d4b",
+    "human_reference.parquet": "e331ab55b9a11a967420a208ee8f5c873a055a2c23c2f9090c07b7cdd5e43113",
+    "query_reference.parquet": "dc81625a4f729d8a3c9c11dc31dcf0e5cc838d94417b171feba86c414731e507",
+    "sequence_network_summary.parquet": "c116a25bbb6fa925d178bd6330f5a529198880521b08538d219c8cf9f64c2c9e",
+    "threshold_sweep.parquet": "9c29f45ac535306f9270934a5d609aab1b0b37ebba1e9e291809be3f82151a90",
+    "thresholded_edges.parquet": "33a2bce468396afa66020b9fcecf998cb7f80f616751eeac26a2d8264974e54f",
+    "top_partner_changes.parquet": "71607dd03eebf78020015812bf334b0462c83c0f85e3ce65b24acef4324bed06"
+  },
+  "files": {
+    "atlas_scores.float32.npy": "atlas/experiments/abca4_variant_proteome/smoke-b5d01ca003c0eda6c791/atlas_scores.float32.npy",
+    "human_reference.parquet": "atlas/experiments/abca4_variant_proteome/smoke-b5d01ca003c0eda6c791/human_reference.parquet",
+    "query_reference.parquet": "atlas/experiments/abca4_variant_proteome/smoke-b5d01ca003c0eda6c791/query_reference.parquet",
+    "remote_manifest.json": "atlas/experiments/abca4_variant_proteome/smoke-b5d01ca003c0eda6c791/remote_manifest.json",
+    "sequence_network_summary.parquet": "atlas/experiments/abca4_variant_proteome/smoke-b5d01ca003c0eda6c791/sequence_network_summary.parquet",
+    "threshold_sweep.parquet": "atlas/experiments/abca4_variant_proteome/smoke-b5d01ca003c0eda6c791/threshold_sweep.parquet",
+    "thresholded_edges.parquet": "atlas/experiments/abca4_variant_proteome/smoke-b5d01ca003c0eda6c791/thresholded_edges.parquet",
+    "top_partner_changes.parquet": "atlas/experiments/abca4_variant_proteome/smoke-b5d01ca003c0eda6c791/top_partner_changes.parquet"
+  },
+  "human_cache_path": "/synth-data/atlas/deployments/atlas-synthyra-atlas-ppi/proteomes/Synthyra__Atlas-PPI/UP000005640_both.pt",
+  "human_cache_revision": "",
+  "human_cache_sha256": "4409fb7f08814ff89296518fc5b715e59b67c7a6132f6fa0778f1df23e8d8888",
+  "human_protein_count": 128,
+  "human_proteome_id": "UP000005640",
+  "model_path": "Synthyra/Atlas-PPI",
+  "model_revision": "10be6d0b5a3559a7ad499702967c34d34980d6a0",
+  "query_embeddings_persisted": false,
+  "query_sequence_count": 2,
+  "raw_score_matrix": {
+    "array_format": "NumPy NPY",
+    "bidirectional_merge": "mean(sigmoid(forward_logit), sigmoid(reverse_logit))",
+    "column_index": "human_reference.parquet:human_index",
+    "dtype": "float32",
+    "filename": "atlas_scores.float32.npy",
+    "row_index": "query_reference.parquet:query_index",
+    "schema_version": "atlas_probability_float32_v1",
+    "score_kind": "probability",
+    "sha256": "ef6ce5025fd6c9c66e78136a480c99e2eb90a7df806f46af3d4b76e1bc383d4b",
+    "size_bytes": 1152
+  },
+  "remote_package_versions": {
+    "modal": "1.5.3",
+    "numpy": "2.4.6",
+    "pandas": "3.0.5",
+    "pyarrow": "24.0.0",
+    "torch": "2.11.0+cu128",
+    "transformers": "4.57.6"
+  },
+  "retained_edge_count": 1,
+  "run_id": "smoke-b5d01ca003c0eda6c791",
+  "score_kind": "probability",
+  "threshold": 0.9,
+  "threshold_operator": ">",
+  "threshold_sweep": {
+    "count": 50,
+    "execution_environment": "Modal worker",
+    "maximum": 0.99,
+    "minimum": 0.5,
+    "step": 0.01
+  }
+}
