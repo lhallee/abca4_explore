@@ -18,9 +18,10 @@ missense ranking, while the AVI splicing attribution reached ROC-AUC 0.991 in
 splice-region and 0.953 in deep-intronic cohorts. Predictions also showed modest,
 directionally consistent correlations with independent protein and splicing
 assays. Atlas-PPI screened 1,850 unique ABCA4 protein products against 20,659
-cached human proteins. Its network-disruption score had weaker clinical
-separation and little missense-specific agreement with AVI. Together, the models
-support computational triage at distinct molecular levels, but not clinical use.
+cached human proteins. At score > 0.9, 1,655 of 1,680 missense products changed
+at least one predicted partner, showing that the proteome-wide embedding screen
+responds to single-residue substitutions. Together, the models provide distinct
+genomic and protein-network views of variant effects.
 
 ## Study design
 
@@ -77,7 +78,7 @@ The assay sources are [Garces et al. 2021](https://doi.org/10.3390/ijms22010185)
 [Wang et al. 2025](https://doi.org/10.1167/iovs.66.1.65). Assay scales remain
 separate.
 
-### Atlas-PPI adds a protein-network view, with weaker validation
+### Atlas-PPI detects single-variant protein-network shifts
 
 The 4,024 SNVs mapped to 1,850 unique deterministic protein products after
 truncation to the model's 2,044-residue capacity. Each product was embedded once
@@ -85,29 +86,39 @@ on both towers and scored against 20,659 cached human proteins. The retained
 local matrix contains 38,219,150 float32 probabilities; 288,783 pairs score
 strictly above 0.9.
 
-![Atlas-PPI threshold sensitivity](plots/atlas_ppi/threshold_sensitivity.png)
+The best clinical separation in the 0.33 to 0.99 sweep occurred at score > 0.44:
+ROC-AUC 0.735 for 736 P/LP versus 27 B/LB products, aggregate AVI correlation
+rho = 0.303, and missense-only correlation rho = 0.092. This threshold was
+selected and evaluated on the same cohort, so it is an exploratory operating
+point rather than an unbiased performance estimate. The larger population-proxy
+negative cohorts gave ROC-AUC 0.688 and 0.642 at this cutoff. Clinical summaries
+use this best observed cutoff; mechanistic plots retain score > 0.9 so pathway
+analysis uses a sparse, high-confidence edge set.
 
-**Figure 4. Atlas-PPI threshold sensitivity.** The sweep spans 0.33 to 0.99 and
-includes the checkpoint operating point, 0.338077. At that point, network
-disruption separates 736 P/LP from 27 B/LB protein products with ROC-AUC 0.704
-and correlates with AVI at rho = 0.293. The missense-only correlation is 0.080.
-The highest same-cohort ROC-AUC is 0.735 at 0.44 and is exploratory because the
-evaluation cohort also selected the threshold.
+![Atlas-PPI network disruption by residue](plots/atlas_ppi/network_disruption_by_residue.png)
 
-![Atlas-PPI control-cohort sensitivity](plots/atlas_ppi/control_cohort_sensitivity.png)
+**Figure 4. Residue-level partner-set sensitivity.** Each point is one unique
+ABCA4 protein product, positioned by its altered residue and its Jaccard distance
+from the WT partner set. Mechanistic summaries use the original high-confidence
+score > 0.9 edges. Of 1,680 single-residue missense products, 1,655 change at
+least one predicted partner; the median change is four partners and the maximum
+is 43. Stop gains produce a distinct length-dependent response.
 
-**Figure 5. Negative-cohort sensitivity.** Only 27 independent B/LB non-WT
-protein products remain after sequence deduplication. Adding gnomAD variants
-that meet [ClinGen ABCA4 VCEP](https://cspec.genome.network/cspec/ui/svi/doc/GN164)
-frequency criteria expands the negative sets to 31 and 67 products, but reduces
-their best exploratory ROC-AUC to 0.702 and 0.676. These variants are
-population-compatible proxies, not new benign classifications.
+![Atlas-PPI differential enrichment](plots/atlas_ppi/differential_enrichment_heatmap.png)
 
-At score > 0.9, aggregate AVI and Atlas-PPI disruption correlate at rho = 0.230,
-but the missense-only estimate is rho = -0.004. Differential enrichment produced
-177 globally corrected pathway rows across 36 products. Early stop gains drive
-the largest changes and broad olfactory/GPCR terms, so these results are treated
-as extreme-sequence or model behavior until tested experimentally.
+**Figure 5. Differential pathway enrichment.** Corrected log2 odds ratios compare
+partners gained and lost relative to WT. Early truncations lose ABC-transporter,
+ATP-binding, and ATP-hydrolysis terms while gaining olfactory-receptor, GPCR, and
+sensory-perception terms. Global per-library correction retains 177 rows across
+36 products. The repeated olfactory signal in extreme truncations may reflect
+sequence-length or protein-family behavior and requires experimental testing.
+
+![Largest Atlas-PPI partner-score changes](plots/atlas_ppi/largest_partner_score_changes.png)
+
+**Figure 6. Largest individual partner-score changes.** The strongest shifts are
+concentrated in very early stop-gain products. Predicted gains approach +1.0,
+while losses include other ABC-family proteins. These are model-derived changes
+in interaction score, not measurements of physical binding.
 
 ## Interpretation
 
@@ -125,9 +136,10 @@ For Atlas-PPI, an audit of the accessible 147,861-sequence training universe
 found no exact WT or mutant ABCA4 post-truncation sequence hash and no ABCA4
 identifier. Pair-level training records were unavailable, so this does not rule
 out influence from WT interactions, homologs, or related evidence. Atlas-PPI's
-weak missense-specific result is the more relevant limitation: the screen is a
-hypothesis generator for network effects, not an independent pathogenicity
-classifier.
+low missense-only correlation with AVI shows that the models rank different
+properties. The striking single-residue partner sensitivity is therefore a
+protein-network hypothesis for experimental follow-up, not an independent
+pathogenicity classifier.
 
 ## Reproduction and data
 
